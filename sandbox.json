@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.01",
+    "ruleset": "SANDBOX",
 
     "starting_bones": 999,
     "starting_energy_max": 999,
@@ -11,8 +11,7 @@
                 "Repulsive"
             ],
             "attack": 1,
-            "health": 1,
-            "banned": true
+            "health": 1
         },
         {
             "name": "Adder",
@@ -68,8 +67,7 @@
             ],
             "attack": 0,
             "health": 5,
-            "blood_cost": 2,
-            "banned": true
+            "blood_cost": 2
         },
         {
             "name": "Cat",
@@ -85,8 +83,7 @@
             "name": "Undead Cat",
             "attack": 3,
             "health": 6,
-            "blood_cost": 1,
-            "banned": true
+            "blood_cost": 1
         },
         {
             "name": "Cockroach",
@@ -135,8 +132,7 @@
             ],
             "attack": 2,
             "health": 2,
-            "blood_cost": 2,
-            "banned": true
+            "blood_cost": 2
         },
         {
             "name": "Hawk",
@@ -382,7 +378,6 @@
             "attack": 0,
             "health": 3,
             "blood_cost": 1,
-            "banned": true,
             "evolution": "Mothman",
         },
         {
@@ -393,7 +388,6 @@
             "attack": 7,
             "health": 3,
             "blood_cost": 1,
-            "banned": true,
         },
         {
             "name": "Turkey Vulture",
@@ -412,8 +406,7 @@
             ],
             "attack": 0,
             "health": 3,
-            "blood_cost": 2,
-            "banned": true
+            "blood_cost": 2
         },
         {
             "name": "Hand Tentacle",
@@ -422,8 +415,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "blood_cost": 1,
-            "banned": true
+            "blood_cost": 1
         },
         {
             "name": "Mirror Tentacle",
@@ -432,14 +424,12 @@
             ],
             "attack": 0,
             "health": 3,
-            "blood_cost": 1,
-            "banned": true
+            "blood_cost": 1
         },
         {
             "name": "Squirrel",
             "attack": 0,
-            "health": 1,
-            "banned": true
+            "health": 1
         },
         {
             "name": "Squirrel Ball",
@@ -661,8 +651,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "energy_cost": 1,
-            "banned": true
+            "energy_cost": 1
         },
         {
             "name": "Mrs. Bomb",
@@ -688,8 +677,7 @@
             "name": "Sniper Bot",
             "attack": 1,
             "health": 1,
-            "energy_cost": 3,
-            "banned": true
+            "energy_cost": 3
         },
         {
             "name": "Steambot",
@@ -853,8 +841,7 @@
             ],
             "attack": 0,
             "health": 3,
-            "bone_cost": 1,
-            "banned": true
+            "bone_cost": 1
         },
         {
             "name": "Headless Horseman",
@@ -907,8 +894,7 @@
                 "Brittle"
             ],
             "attack": 1,
-            "health": 1,
-            "banned": true
+            "health": 1
         },
         {
             "name": "Skelemagus",
@@ -987,8 +973,7 @@
             "health": 1,
             "mox_cost": [
                 "Blue"
-            ],
-            "banned": true
+            ]
         },
         {
             "name": "Hover Mage",
@@ -1131,8 +1116,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Ruby Mox",
@@ -1141,8 +1125,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Sapphire Mox",
@@ -1151,8 +1134,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Magnus Mox",
@@ -1162,7 +1144,6 @@
             "attack": 0,
             "health": 2,
             "nosac": true,
-            "banned": true,
         },
         {
             "name": "Muscle Mage",
@@ -1276,8 +1257,7 @@
                 "Blue",
                 "Orange"
             ],
-            "description": "Custom card by SpelunkyGuy101",
-            "banned": "for being too op"
+            "description": "Custom card by SpelunkyGuy101"
         },
         {
             "name": "Life Mage",
@@ -1314,8 +1294,7 @@
             ],
             "mox_cost": [
                 "Orange"
-            ],
-            "banned": true
+            ]
         },
         {
             "name": "Shower Mage",
@@ -1336,16 +1315,14 @@
                 "Boneless"
             ],
             "attack": 1,
-            "health": 1,
-            "banned": true
+            "health": 1
         },
         {
             "name": "Empty Vessel",
             "attack": 0,
             "health": 3,
             "energy_cost": 1,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Leaping Vessel",
@@ -1355,8 +1332,7 @@
             "attack": 0,
             "health": 2,
             "energy_cost": 2,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Energized Vessel",
@@ -1366,8 +1342,7 @@
             "attack": 0,
             "health": 2,
             "energy_cost": 3,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Bloody Vessel",
@@ -1377,7 +1352,6 @@
             "attack": 0,
             "health": 2,
             "energy_cost": 4,
-            "banned": true,
             "description": "Note: Energy cost increased due to opponent not having enough time to build a board before bloody vessel is usable."
         },
         {
@@ -1390,7 +1364,6 @@
             "health": 2,
             "energy_cost": 6,
             "nosac": true,
-            "banned": true,
             "description": "The only alternate win condition. Get 4 of these to win with style."
         },
         {
@@ -1401,8 +1374,7 @@
             "attack": 0,
             "health": 2,
             "energy_cost": 2,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Conductive Vessel",
@@ -1410,8 +1382,7 @@
             "health": 2,
             "energy_cost": 2,
             "nosac": true,
-            "conduit": true,
-            "banned": true
+            "conduit": true
         },
         {
             "name": "Contaminated Vessel",
@@ -1421,14 +1392,12 @@
             "attack": 0,
             "health": 2,
             "energy_cost": 2,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Geck",
             "attack": 1,
             "health": 1,
-            "banned": true,
             "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
         },
         {
@@ -1438,7 +1407,6 @@
             "sigils": [
                 "Reconstitute"
             ],
-            "banned": true,
             "description": "Card and Reconstitute sigil art by Sebas534. Boneless sigil art by syntaxevasion.\nThe most broken card, hopefully no longer."
         },
         {
@@ -1450,7 +1418,6 @@
                 "Sprinter"
             ],
             "nohammer": true,
-            "banned": true,
             "description": "Custom card by Garf, zpan0317, and Me!"
         },
         {
@@ -1461,8 +1428,7 @@
                 "Scopophobic",
                 "Boneless"
             ],
-            "nosac": true,
-            "banned": true
+            "nosac": true
         }
     ],
     "sigils": {
