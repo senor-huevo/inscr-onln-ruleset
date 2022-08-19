@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.05",
+    "ruleset": "IMF Competitive Ruleset v0.06",
     "cards": [
         {
             "name": "Starvation",
@@ -53,7 +53,7 @@
                 "Mighty Leap"
             ],
             "attack": 1,
-            "health": 3,
+            "health": 2,
             "blood_cost": 1
         },
         {
@@ -185,6 +185,36 @@
             "blood_cost": 1,
             "rare": true,
             "description": "Note: This card's effect was changed due to it sucking."
+        },
+        {
+            "name": "Long Elk",
+            "attack": 1,
+            "health": 2,
+            "sigils": [
+                "Sprinter",
+                "Touch of Death"
+            ],
+            "sheds": "Vertebrae",
+            "bone_cost": 4,
+            "rare": true,
+            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/syntax_snelk_head.png"
+        },
+        {
+            "name": "Vertebrae",
+            "attack": 0,
+            "health": 1,
+            "banned": true,
+            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/syntax_snelk_neck.png"
+        },
+        {
+            "name": "Alpha",
+            "attack": 1,
+            "health": 2,
+            "sigils": [
+                "Leader"
+            ],
+            "bone_cost": 4,
+            "pixport_url": "https://ingoh.net/inscryption/textures/src/pixelportrait_alpha.png"
         },
         {
             "name": "Magpie",
@@ -730,6 +760,14 @@
             "health": 3,
             "energy_cost": 3,
             "rare": true
+        },
+        {
+            "name": "Mirror Bot",
+            "energy_cost": 2,
+            "atkspecial": 1,
+            "attack": 0,
+            "health": 1,
+            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/Mirror%20Bot.png"
         },
         {
             "name": "Thick Droid",
@@ -1383,6 +1421,19 @@
             "description": "Custom card by SpelunkyGuy101"
         },
         {
+            "name": "Holo Mox",
+            "mox_cost": [
+                "Orange"
+            ],
+            "sigils": [
+                "Armored"
+            ],
+            "energy_cost": 2,
+            "attack": 0,
+            "health": 1,
+            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/spelunky_holomox.png"
+        },
+        {
             "name": "Withered Corpse",
             "sigils": [
                 "Brittle",
@@ -1516,6 +1567,7 @@
     ],
     "sigils": {
         "Airborne": "A card bearing this sigil will strike an opponent directly, even if there is a creature opposing it.",
+        "Armored": "The first time a card bearing this sigil would take damage, prevent that damage.",
         "Attack Conduit": "Other creatures within a circuit completed by a card bearing this sigil gain 1 power.",
         "Battery Bearer": "When a card bearing this sigil is played, it provides an energy cell to its owner.",
         "Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
@@ -1544,6 +1596,7 @@
         "Handy": "When a card bearing this sigil is played, discard your hand then draw a new hand of 4 cards.",
         "Hefty": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil. creatures in the way will be pushed in the same direction.",
         "Hoarder": "When a card bearing this sigil is played, you may search your deck for any card and take it into your hand.",
+        "Leader": "Creatures adjacent to a card bearing this sigil gain 1 Power.",
         "Looter": "When a card bearing this sigil deals damage directly, draw a card for each damage dealt.",
         "Made of Stone": "A card bearing this sigil is immune to the effects of touch of death and stinky.",
         "Many Lives": "When a card bearing this sigil is sacrificed it does not perish.",
@@ -1574,6 +1627,10 @@
         "Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
         "Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
         "Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
+    },
+    "sigil_urls": {
+        "Leader": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sigils/Leader.png",
+        "Armored": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sigils/Armored.png"
     },
     "working_sigils": [
         "Airborne",
@@ -1632,6 +1689,8 @@
         "Reconstitute",
         "Noble Sacrifice",
         "Made of Stone",
-        "Side Hustle"
+        "Side Hustle",
+        "Armored",
+        "Leader"
     ]
 }
