@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.07",
+    "ruleset": "IMF Competitive Ruleset v0.08",
     "hammers_per_turn": 1,
     "cards": [
         {
@@ -1051,9 +1051,7 @@
             "health": 1,
             "mox_cost": [
                 "Blue"
-            ],
-            "nohammer": true,
-            "description": "Note: Made unhammerable to allow for better mox stuff in future"
+            ]
         },
         {
             "name": "Blue Sporemage",
