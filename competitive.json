@@ -1,5 +1,6 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.06",
+    "ruleset": "IMF Competitive Ruleset v0.07",
+    "hammers_per_turn": 1,
     "cards": [
         {
             "name": "Starvation",
@@ -111,7 +112,7 @@
                 "Fledgling"
             ],
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "blood_cost": 1,
             "evolution": "Elk"
         },
@@ -196,15 +197,13 @@
             ],
             "sheds": "Vertebrae",
             "bone_cost": 4,
-            "rare": true,
-            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/syntax_snelk_head.png"
+            "rare": true
         },
         {
             "name": "Vertebrae",
             "attack": 0,
             "health": 1,
-            "banned": true,
-            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/syntax_snelk_neck.png"
+            "banned": true
         },
         {
             "name": "Alpha",
@@ -213,8 +212,7 @@
             "sigils": [
                 "Leader"
             ],
-            "bone_cost": 4,
-            "pixport_url": "https://ingoh.net/inscryption/textures/src/pixelportrait_alpha.png"
+            "bone_cost": 4
         },
         {
             "name": "Magpie",
@@ -521,7 +519,7 @@
                 "Fledgling"
             ],
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "blood_cost": 1,
             "evolution": "Wolf"
         },
@@ -766,8 +764,7 @@
             "energy_cost": 2,
             "atkspecial": 1,
             "attack": 0,
-            "health": 1,
-            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/Mirror%20Bot.png"
+            "health": 1
         },
         {
             "name": "Thick Droid",
@@ -1430,8 +1427,7 @@
             ],
             "energy_cost": 2,
             "attack": 0,
-            "health": 1,
-            "pixport_url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/portraits/spelunky_holomox.png"
+            "health": 1
         },
         {
             "name": "Withered Corpse",
@@ -1627,10 +1623,6 @@
         "Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
         "Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
         "Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
-    },
-    "sigil_urls": {
-        "Leader": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sigils/Leader.png",
-        "Armored": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sigils/Armored.png"
     },
     "working_sigils": [
         "Airborne",
