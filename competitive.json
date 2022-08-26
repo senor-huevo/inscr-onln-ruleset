@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.08",
+    "ruleset": "IMF Competitive Ruleset v0.09",
     "hammers_per_turn": 1,
     "cards": [
         {
@@ -54,7 +54,7 @@
                 "Mighty Leap"
             ],
             "attack": 1,
-            "health": 2,
+            "health": 3,
             "blood_cost": 1
         },
         {
@@ -533,6 +533,33 @@
             "health": 2,
             "blood_cost": 2,
             "description": "Custom card by SpelunkyGuy101.\nCard and sigil art by syntaxevasion"
+        },
+        {
+            "name": "Worker Ant",
+            "attack": 0,
+            "health": 2,
+            "atkspecial": 2,
+            "blood_cost": 1
+        },
+        {
+            "name": "Ant Queen",
+            "attack": 0,
+            "health": 3,
+            "atkspecial": 2,
+            "blood_cost": 2,
+            "sigils": [
+                "Ant Spawner"
+            ]
+        },
+        {
+            "name": "Flying Ant",
+            "attack": 0,
+            "health": 2,
+            "atkspecial": 2,
+            "blood_cost": 1,
+            "sigils": [
+                "Airborne"
+            ]
         },
         {
             "name": "Curve Hopper",
@@ -1561,6 +1588,7 @@
     ],
     "sigils": {
         "Airborne": "A card bearing this sigil will strike an opponent directly, even if there is a creature opposing it.",
+        "Ant Spawner": "When a card bearing this sigil is played, an ant is created in your hand.",
         "Armored": "The first time a card bearing this sigil would take damage, prevent that damage.",
         "Attack Conduit": "Other creatures within a circuit completed by a card bearing this sigil gain 1 power.",
         "Battery Bearer": "When a card bearing this sigil is played, it provides an energy cell to its owner.",
@@ -1681,6 +1709,8 @@
         "Made of Stone",
         "Side Hustle",
         "Armored",
-        "Leader"
+        "Leader",
+        "Ant Spawner"
     ]
 }
+
