@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.09",
+    "ruleset": "IMF Competitive Ruleset v0.10",
     "hammers_per_turn": 1,
     "cards": [
         {
@@ -554,12 +554,36 @@
         {
             "name": "Flying Ant",
             "attack": 0,
-            "health": 2,
+            "health": 3,
             "atkspecial": 2,
             "blood_cost": 1,
             "sigils": [
                 "Airborne"
             ]
+        },
+        {
+            "name": "Bullet Ant",
+            "attack": 0,
+            "health": 3,
+            "atkspecial": 2,
+            "blood_cost": 3,
+            "sigils": [
+                "Bifurcated Strike"
+            ],
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013814183751598170/unknown.png",
+            "description": "Custom card by SpelunkyGuy101.\nCard art by Mark"
+        },
+        {
+            "name": "Mole Seaman",
+            "attack": 1,
+            "health": 8,
+            "blood_cost": 2,
+            "sigils": [
+                "Mighty Leap",
+                "Burrower"
+            ],
+            "rare": true,
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013810989143179264/syntax_seaman.png"
         },
         {
             "name": "Curve Hopper",
@@ -1058,6 +1082,27 @@
             "nosac": true
         },
         {
+            "name": "Skeleton Crew",
+            "attack": 2,
+            "health": 1,
+            "sigils": [
+                "Brittle"
+            ],
+            "bone_cost": 2,
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013812568302813264/syntax_skeletonpirate.png"
+        },
+        {
+            "name": "Zombie Parrot",
+            "attack": 2,
+            "health": 3,
+            "bone_cost": 3,
+            "sigils": [
+                "Brittle",
+                "Airborne"
+            ],
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013810989449367592/syntax_skeletonparrot.png"
+        },
+        {
             "name": "Gourmage",
             "sigils": [
                 "Enlarge"
@@ -1455,6 +1500,63 @@
             "health": 1
         },
         {
+            "name": "Winged Guardian",
+            "mox_cost": [
+                "Orange",
+                "Blue"
+            ],
+            "attack": 2,
+            "health": 2,
+            "sigils": [
+                "Airborne",
+                "Armored"
+            ],
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013200147347423362/Wing_Guard.png",
+            "description": "Custom card by Flare"
+        },
+        {
+            "name": "Swift Sage",
+            "mox_cost": [
+                "Orange",
+                "Blue"
+            ],
+            "attack": 2,
+            "health": 3,
+            "sigils": [
+                "Sharp Quills",
+                "Sprinter"
+            ],
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013200146328203295/Swift_Sage_Full_Swirl.png",
+            "description": "Custom card by Flare"
+        },
+        {
+            "name": "Dark Knight",
+            "mox_cost": [
+                "Orange",
+                "Green"
+            ],
+            "attack": 2,
+            "health": 4,
+            "sigils": [
+                "Blood Lust"
+            ],
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013808407016374292/dkflop.png",
+            "description": "Custom card by Flare"
+        },
+        {
+            "name": "Animox",
+            "mox_cost": ["Blue"],
+            "blood_cost": 1,
+            "attack": 1,
+            "health": 2,
+            "sigils": [
+                "Blue Mox",
+                "Sprinter"
+            ],
+            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013817130459857018/animox_act_2_card.png",
+            "description": "Custom card by SYNTHIA_2000"
+        },
+        {
             "name": "Withered Corpse",
             "sigils": [
                 "Brittle",
@@ -1586,6 +1688,9 @@
             "banned": true
         }
     ],
+    "sigil_urls": {
+        "Blood Lust": "https://ingoh.net/inscryption/textures/src/pixelability_gainattackonkill.png"
+    },
     "sigils": {
         "Airborne": "A card bearing this sigil will strike an opponent directly, even if there is a creature opposing it.",
         "Ant Spawner": "When a card bearing this sigil is played, an ant is created in your hand.",
@@ -1593,6 +1698,7 @@
         "Attack Conduit": "Other creatures within a circuit completed by a card bearing this sigil gain 1 power.",
         "Battery Bearer": "When a card bearing this sigil is played, it provides an energy cell to its owner.",
         "Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
+        "Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
         "Blue Mox": "While a card bearing this sigil is on the board, it provides a blue gem to its owner.",
         "Bomb Spewer": "When a card bearing this sigil is played, fill all empty spaces with explode bots.",
         "Bone Digger": "At the end of the owner's turn, a card bearing this sigil will generate 1 bone.",
@@ -1711,6 +1817,9 @@
         "Armored",
         "Leader",
         "Ant Spawner"
+    ],
+    "side_decks": [
+        
     ]
 }
 
