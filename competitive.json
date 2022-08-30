@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.10",
+    "ruleset": "IMF Competitive Ruleset v0.11",
     "hammers_per_turn": 1,
     "cards": [
         {
@@ -554,7 +554,7 @@
         {
             "name": "Flying Ant",
             "attack": 0,
-            "health": 3,
+            "health": 2,
             "atkspecial": 2,
             "blood_cost": 1,
             "sigils": [
@@ -1517,7 +1517,7 @@
         {
             "name": "Swift Sage",
             "mox_cost": [
-                "Orange",
+                "Green",
                 "Blue"
             ],
             "attack": 2,
@@ -1540,7 +1540,7 @@
             "sigils": [
                 "Blood Lust"
             ],
-            "pixport_url": "https://cdn.discordapp.com/attachments/994574303788015736/1013808407016374292/dkflop.png",
+            "pixport_url": "https://cdn.discordapp.com/attachments/1006015359452721242/1013990766013599946/Dark_Knight.png",
             "description": "Custom card by Flare"
         },
         {
