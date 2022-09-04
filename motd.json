@@ -1,8 +1,8 @@
 {
     "latest_version": "v0.1.8",
-    "latest_ruleset": "IMF Competitive Ruleset v0.12",
+    "latest_ruleset": "IMF Competitive Ruleset v0.13",
     "motd_stoat": "Total Misplay.\nA new version of the game is out!\nClick here to download it!",
     "motd_stoat_force": "",
     "motd_grimorger": "",
-    "motd_grimorger_update": "Marvelous!\ncompetitive ruleset version v0.12 is now available!"
+    "motd_grimorger_update": "Marvelous!\ncompetitive ruleset version v0.13 is now available!"
 }

@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.12",
+    "ruleset": "IMF Competitive Ruleset v0.13",
     "hammers_per_turn": 1,
     "cards": [
         {
@@ -223,7 +223,8 @@
             "attack": 1,
             "health": 1,
             "blood_cost": 2,
-            "description": "This card was unused in act 2, but had art."
+            "description": "This card was unused in act 2, but had art.",
+            "rare": true
         },
         {
             "name": "Mantis",
@@ -1423,14 +1424,13 @@
             "attack": 1,
             "health": 1,
             "sigils": [
-                "Looter"
+                "Side Hustle"
             ],
             "mox_cost": [
                 "Blue",
                 "Orange"
             ],
-            "description": "Custom card by SpelunkyGuy101",
-            "banned": "for being too op"
+            "description": "Custom card by SpelunkyGuy101\nServed his sentence"
         },
         {
             "name": "Life Mage",
@@ -1502,10 +1502,10 @@
                 "Blue"
             ],
             "attack": 2,
-            "health": 2,
+            "health": 3,
             "sigils": [
                 "Airborne",
-                "Armored"
+                "Mighty Leap"
             ],
             "description": "Custom card by Flare"
         },
@@ -1516,7 +1516,7 @@
                 "Blue"
             ],
             "attack": 2,
-            "health": 3,
+            "health": 2,
             "sigils": [
                 "Sharp Quills",
                 "Sprinter"
