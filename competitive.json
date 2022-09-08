@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.13",
+    "ruleset": "IMF Competitive Ruleset v0.14",
     "hammers_per_turn": 1,
     "cards": [
         {
@@ -936,7 +936,8 @@
             "name": "Frank & Stein",
             "attack": 2,
             "health": 2,
-            "bone_cost": 5
+            "bone_cost": 5,
+            "conduit": true
         },
         {
             "name": "Ghost Ship",
@@ -1140,7 +1141,7 @@
                 "Airborne"
             ],
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "mox_cost": [
                 "Blue"
             ]
@@ -1321,7 +1322,7 @@
                 "Hefty"
             ],
             "attack": 1,
-            "health": 1,
+            "health": 2,
             "mox_cost": [
                 "Green"
             ]
@@ -1681,7 +1682,8 @@
         }
     ],
     "sigil_urls": {
-        "Blood Lust": "https://ingoh.net/inscryption/textures/src/pixelability_gainattackonkill.png"
+        "Blood Lust": "https://ingoh.net/inscryption/textures/src/pixelability_gainattackonkill.png",
+        "Reconstitute": "https://cdn.discordapp.com/attachments/1008891695087239220/1017238971631276193/Reconstitute.png"
     },
     "sigils": {
         "Airborne": "A card bearing this sigil will strike an opponent directly, even if there is a creature opposing it.",
