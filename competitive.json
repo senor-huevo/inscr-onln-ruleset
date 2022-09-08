@@ -1,6 +1,7 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.14",
+    "ruleset": "IMF Competitive Ruleset v0.15",
     "hammers_per_turn": 1,
+    "ant_limit": 2,
     "cards": [
         {
             "name": "Starvation",
@@ -536,14 +537,14 @@
         },
         {
             "name": "Worker Ant",
-            "attack": 0,
+            "attack": -1,
             "health": 2,
             "atkspecial": 2,
             "blood_cost": 1
         },
         {
             "name": "Ant Queen",
-            "attack": 0,
+            "attack": -1,
             "health": 3,
             "atkspecial": 2,
             "blood_cost": 2,
@@ -553,7 +554,7 @@
         },
         {
             "name": "Flying Ant",
-            "attack": 0,
+            "attack": -1,
             "health": 1,
             "atkspecial": 2,
             "blood_cost": 1,
@@ -563,7 +564,7 @@
         },
         {
             "name": "Bullet Ant",
-            "attack": 0,
+            "attack": -1,
             "health": 3,
             "atkspecial": 2,
             "blood_cost": 3,
@@ -1647,7 +1648,7 @@
                 "Reconstitute"
             ],
             "banned": true,
-            "description": "Card and Reconstitute sigil art by Sebas534.\nThe most broken card, hopefully no longer."
+            "description": "Card art by Sebas534.\nThe most broken card, hopefully no longer."
         },
         {
             "name": "Shambling Cairn",
@@ -1819,5 +1820,6 @@
         
     ]
 }
+
 
 
