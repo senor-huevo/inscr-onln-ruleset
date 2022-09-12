@@ -1,7 +1,8 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.15",
+    "ruleset": "IMF Competitive Ruleset v0.16",
     "hammers_per_turn": 1,
     "ant_limit": 2,
+    "necro_boned": true,
     "cards": [
         {
             "name": "Starvation",
