@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.15",
+    "ruleset": "IMF Competitive Ruleset v0.16",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "cards": [
@@ -824,6 +824,17 @@
             "description": "Note: This card's health was increased to make it worth 5 energy."
         },
         {
+            "name": "Jukebot",
+            "attack": 0,
+            "health": 3,
+            "energy_cost": 4,
+            "rare": true,
+            "sigils": [
+                "Music Player"
+            ],
+            "description": "Art and sigils by syntaxevasion"
+        },
+        {
             "name": "Draugr",
             "sigils": [
                 "Frozen Away"
@@ -1121,7 +1132,8 @@
             "health": 1,
             "mox_cost": [
                 "Blue"
-            ]
+            ],
+            "rare": true
         },
         {
             "name": "Blue Sporemage",
@@ -1234,7 +1246,7 @@
                 "Airborne",
                 "Looter"
             ],
-            "attack": 2,
+            "attack": 1,
             "health": 3,
             "mox_cost": [
                 "Orange",
@@ -1517,7 +1529,7 @@
                 "Green",
                 "Blue"
             ],
-            "attack": 2,
+            "attack": 1,
             "health": 2,
             "sigils": [
                 "Sharp Quills",
@@ -1727,6 +1739,7 @@
         "Marrow Sucker": "Pay 2 bones to heal a card bearing this sigil.",
         "Mental Gemnastics": "When a card bearing this sigil is played, you draw cards equal to the amount of mox cards on your side of the board.",
         "Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
+        "Music Player": "A card bearing this sigil plays a song of your choice when played",
         "Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
         "Power Dice": "Pay 2 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
         "Rabbit Hole": "When a card bearing this sigil is played, a Rabbit is created in your hand.",
@@ -1814,12 +1827,14 @@
         "Leader",
         "Ant Spawner",
         "Double Strike",
-        "Blood Lust"
+        "Blood Lust",
+        "Music Player"
     ],
     "side_decks": [
         
     ]
 }
+
 
 
 
