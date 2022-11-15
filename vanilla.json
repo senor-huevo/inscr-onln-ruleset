@@ -1,7 +1,6 @@
 {
     "ruleset": "IMF Vanilla v0.1",
     "side_deck": false,
-    "hammers_per_turn": 1,
     "ant_limit": 2,
     "cards": [
         {
@@ -238,7 +237,7 @@
             "attack": 0,
             "health": 3,
             "blood_cost": 1,
-            "atkspecial": 1,
+            "atkspecial": "mirror",
             "banned": true
         },
         {
@@ -260,8 +259,7 @@
             "name": "Stoat",
             "attack": 1,
             "health": 2,
-            "blood_cost": 1,
-            "description": "Note: Health was increased to 3 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
+            "blood_cost": 1
         },
         {
             "name": "Urayuli",
@@ -820,8 +818,8 @@
             "mox_cost": [
                 "Green"
             ],
-            "atkspecial": 0,
-            "description": "This card's attack is equal to the number of \"Mox\" cards you possess."
+            "atkspecial": "mox",
+            "description": "This card's attack is equal to the number of \"Green Mox\" sigils you possess."
         },
         {
             "name": "Junior Sage",
@@ -1029,7 +1027,7 @@
         "Bomb Spewer": "When a card bearing this sigil is played, fill all empty spaces with explode bots.",
         "Bone Digger": "At the end of the owner's turn, a card bearing this sigil will generate 1 bone.",
         "Bone King": "When a card bearing this sigil dies, 4 bones are awarded instead of 1.",
-        "Bonehorn": "Pay 1 energy to gain 1 bone.",
+        "Bonehorn": "Pay 1 energy to gain 3 bones.",
         "Brittle": "After attacking, a card bearing this sigil perishes.",
         "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
         "Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
@@ -1063,8 +1061,9 @@
         "Spawn Conduit": "Empty spaces within a circuit completed by a card bearing this sigil spawn L33pB0ts at the end of the owner's turn.",
         "Sprinter": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil.",
         "Squirrel Shedder": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a squirrel in their old space.",
+        "Skeleton Crew": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a skeleton in their old space.",
         "Stinky": "The creature opposing a card bearing this sigil loses 1 Power.",
-        "Stimulate": "Pay 4 energy to increase the power and health of a card bearing this sigil by 1.",
+        "Stimulate": "Pay 3 energy to increase the power and health of a card bearing this sigil by 1.",
         "Tentacle": "Includes effect of Waterborne. In addition, a card bearing this sigil will transform into a random tentacle at the start of each turn.",
         "Touch of Death": "When a card bearing this sigil damages another creature, that creature perishes.",
         "Trifurcated Strike": "A card bearing this sigil will strike each opposing space to the left, right, and center of it.",
@@ -1138,7 +1137,5 @@
         "Blood Lust",
         "Music Player"
     ],
-    "side_decks": [
-        
-    ]
+    "side_decks": {}
 }
