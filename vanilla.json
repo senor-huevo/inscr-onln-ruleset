@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Vanilla v0.1",
+    "ruleset": "IMF Vanilla v0.2",
     "side_deck": false,
     "ant_limit": 2,
     "cards": [
@@ -259,7 +259,8 @@
             "name": "Stoat",
             "attack": 1,
             "health": 2,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "pixport_url": "https://www.ingoh.net/inscryption/textures/src/pixelportrait_stoat.png"
         },
         {
             "name": "Urayuli",
@@ -289,7 +290,7 @@
                 "Fledgling"
             ],
             "attack": 1,
-            "health": 2,
+            "health": 1,
             "blood_cost": 1,
             "evolution": "Wolf"
         },
@@ -553,8 +554,7 @@
             "attack": 1,
             "health": 1,
             "bone_cost": 3,
-            "active": true,
-            "description": "Note: This card gives only 1 bone per 1 energy due to the previous effect being overpowered in combination with Bone Heap."
+            "active": true
         },
         {
             "name": "Bone Heap",
@@ -921,8 +921,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Ruby Mox",
@@ -931,8 +930,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Sapphire Mox",
@@ -941,8 +939,7 @@
             ],
             "attack": 0,
             "health": 1,
-            "nosac": true,
-            "banned": true
+            "nosac": true
         },
         {
             "name": "Magnus Mox",
@@ -1031,10 +1028,10 @@
         "Brittle": "After attacking, a card bearing this sigil perishes.",
         "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
         "Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
-        "Disentomb": "Pay 1 bone to create a withered corpse in your hand.",
+        "Disentomb": "Pay 1 bone to create a skeleton in your hand.",
         "Double Death": "When another creature you own dies, it is returned to life and dies again immediately.",
         "Double Strike": "A card bearing this Sigil will strike the opposing space an extra time when attacking.",
-        "Energy Conduit": "If a card bearing this sigil is part of a completed circuit, your maximum energy increases by 2.",
+        "Energy Conduit": "If a card bearing this sigil is part of a completed circuit, your Energy never depletes.",
         "Energy Gun": "Pay 1 energy to deal 1 damage to the creature across from a card bearing this sigil.",
         "Enlarge": "Pay 2 bones to increase the power and health of a card bearing this sigil by 1.",
         "Fecundity": "When a card bearing this sigil is played, a copy of it is created in your hand.",
@@ -1052,7 +1049,7 @@
         "Mental Gemnastics": "When a card bearing this sigil is played, you draw cards equal to the amount of mox cards on your side of the board.",
         "Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
         "Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
-        "Power Dice": "Pay 2 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
+        "Power Dice": "Pay 1 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
         "Rabbit Hole": "When a card bearing this sigil is played, a Rabbit is created in your hand.",
         "Repulsive": "If a creature would attack a card bearing this sigil, it does not.",
         "Ruby Heart": "When a card bearing this sigil perishes, a ruby mox is created in its place.",
@@ -1139,3 +1136,4 @@
     ],
     "side_decks": {}
 }
+
