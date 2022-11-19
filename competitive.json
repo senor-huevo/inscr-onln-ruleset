@@ -1610,7 +1610,7 @@
             ],
             "attack": 0,
             "health": 2,
-            "energy_cost": 4,
+            "energy_cost": 3,
             "banned": true,
             "description": "Note: Energy cost increased due to opponent not having enough time to build a board before bloody vessel is usable."
         },
