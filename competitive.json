@@ -1,7 +1,12 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.17",
+    "ruleset": "IMF Competitive Ruleset v0.18",
     "hammers_per_turn": 1,
     "ant_limit": 2,
+    "deck_size_min": 1,
+    "max_commons_main": 4,
+    "max_commons_side": 10,
+    "num_candles": 3,
+    "variable_attack_nerf": false,
     "cards": [
         {
             "name": "Starvation",
@@ -57,17 +62,6 @@
             "attack": 1,
             "health": 3,
             "blood_cost": 1
-        },
-        {
-            "name": "Burrowing Trap",
-            "sigils": [
-                "Burrower",
-                "Steel Trap"
-            ],
-            "attack": 0,
-            "health": 5,
-            "blood_cost": 2,
-            "banned": true
         },
         {
             "name": "Cat",
