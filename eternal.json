@@ -1,8 +1,8 @@
 {
-    "ruleset": "IMF Eternal v0.1",
+    "ruleset": "IMF Eternal v0.2",
     "hammers_per_turn": 1,
     "deck_size_min": 20,
-    "max_commons_main": 5,
+    "max_commons_main": 3,
     "max_commons_side": 5,
     "num_candles": 3,
     "variable_attack_nerf": true,
@@ -484,6 +484,13 @@
             "description": "Note: Health was increased to 3 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
         },
         {
+            "name": "Urayuli",
+            "attack": 7,
+            "health": 7,
+            "blood_cost": 4,
+            "rare": true
+        },
+        {
             "name": "Warren",
             "sigils": [
                 "Rabbit Hole"
@@ -660,6 +667,16 @@
             "energy_cost": 2,
             "rare": true,
             "active": true
+        },
+        {
+            "name": "Steel Mice",
+            "sigils": [
+                "Fecundity (Kaycee)"
+            ],
+            "attack": 1,
+            "health": 1,
+            "energy_cost": 3,
+            "description": "Note: Fecundity (Kaycee) is nerfed as per Kaycee's Mod"
         },
         {
             "name": "Sentry Drone",
