@@ -1,8 +1,9 @@
 {
-    "ruleset": "IMF Eternal v0.2",
+    "ruleset": "IMF Eternal v0.3",
     "hammers_per_turn": 1,
     "deck_size_min": 20,
     "max_commons_main": 3,
+    "ant_limit": 9,
     "max_commons_side": 5,
     "num_candles": 3,
     "variable_attack_nerf": true,
