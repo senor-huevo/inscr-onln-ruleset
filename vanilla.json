@@ -1,7 +1,13 @@
 {
     "ruleset": "IMF Vanilla v0.2",
     "side_deck": false,
-    "ant_limit": 2,
+    "deck_size_min": 1,
+    "max_commons_main": 99,
+    "max_commons_side": 99,
+    "num_candles": 2,
+    "variable_attack_nerf": false,
+    "opt_actives": false,
+    "ant_limit": 9,
     "cards": [
         {
             "name": "Starvation",
