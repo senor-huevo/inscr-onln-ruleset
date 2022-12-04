@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.18",
+    "ruleset": "IMF Competitive Ruleset v0.19",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -7,6 +7,7 @@
     "max_commons_side": 10,
     "num_candles": 3,
     "variable_attack_nerf": false,
+    "opt_actives": false",
     "cards": [
         {
             "name": "Starvation",

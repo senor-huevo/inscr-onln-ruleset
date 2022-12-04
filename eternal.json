@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Eternal v0.3",
+    "ruleset": "IMF Eternal v0.4",
     "hammers_per_turn": 1,
     "deck_size_min": 20,
     "max_commons_main": 3,
@@ -7,6 +7,7 @@
     "max_commons_side": 5,
     "num_candles": 3,
     "variable_attack_nerf": true,
+    "opt_actives": true,
     "cards": [
         {
             "name": "Starvation",
@@ -34,6 +35,25 @@
             "attack": 2,
             "health": 1,
             "bone_cost": 3
+        },
+        {
+            "name": "Bee",
+            "sigils": [
+                "Airborne"
+            ],
+            "attack": 1,
+            "health": 1,
+            "banned": true,
+            "rare": true
+        },
+        {
+            "name": "Beehive",
+            "sigils": [
+                "Bees Within"
+            ],
+            "attack": 0,
+            "health": 2,
+            "blood_cost": 1
         },
         {
             "name": "Black Goat",
@@ -558,6 +578,15 @@
             "description": "Note: The energy cost of this card was reduced to make it less terrible."
         },
         {
+            "name": "Busted 3D Printer",
+            "attack": 0,
+            "health": 3,
+            "sigils": [
+                "Vessel Printer"
+            ],
+            "energy_cost": 2
+        },
+        {
             "name": "Energy Bot",
             "sigils": [
                 "Battery Bearer"
@@ -626,6 +655,27 @@
             "active": true
         },
         {
+            "name": "GR1ZZ",
+            "sigils": [
+                "Transformer"
+            ],
+            "attack": 0,
+            "health": 4,
+            "energy_cost": 4,
+            "evolution": "GR1ZZ (beast)"
+        },
+        {
+            "name": "GR1ZZ (beast)",
+            "sigils": [
+                "Transformer"
+            ],
+            "attack": 4,
+            "health": 4,
+            "energy_cost": 4,
+            "evolution": "GRIZZ",
+            "banned": true
+        },
+        {
             "name": "Insectodrone",
             "sigils": [
                 "Airborne"
@@ -668,6 +718,27 @@
             "energy_cost": 2,
             "rare": true,
             "active": true
+        },
+        {
+            "name": "SON1A",
+            "sigils": [
+                "Transformer"
+            ],
+            "attack": 1,
+            "health": 1,
+            "energy_cost": 3,
+            "evolution": "SON1A (beast)"
+        },
+        {
+            "name": "SON1A (beast)",
+            "sigils": [
+                "Transformer"
+            ],
+            "attack": 2,
+            "health": 1,
+            "energy_cost": 3,
+            "evolution": "SON1A",
+            "banned": true
         },
         {
             "name": "Steel Mice",
@@ -1378,6 +1449,7 @@
         "Armored": "The first time a card bearing this sigil would take damage, prevent that damage.",
         "Attack Conduit": "Other creatures within a circuit completed by a card bearing this sigil gain 1 power.",
         "Battery Bearer": "When a card bearing this sigil is played, it provides an energy cell to its owner.",
+        "Bees Within": "Once a card bearing this sigil is struck, a Bee is created in your hand.",
         "Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
         "Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
         "Blue Mox": "While a card bearing this sigil is on the board, it provides a blue gem to its owner.",
@@ -1440,10 +1512,12 @@
         "Stimulate (4)": "Pay 4 energy to increase the power and health of a card bearing this sigil by 1.",
         "Tentacle": "Includes effect of Waterborne. In addition, a card bearing this sigil will transform into a random tentacle at the start of each turn.",
         "Touch of Death": "When a card bearing this sigil damages another creature, that creature perishes.",
+        "Transformer": "At the beginning of your turn a card bearing this sigil will transform to, or from, Beast mode.",
         "Trifurcated Strike": "A card bearing this sigil will strike each opposing space to the left, right, and center of it.",
         "True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
         "Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
         "Unkillable (Eternal)": "When a card bearing this sigil perishes, a copy of it is created in your hand without this sigil.",
+        "Vessel Printer": "Once a card bearing this sigil is struck, draw a card from your side deck.",
         "Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
         "Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
     },
@@ -1518,13 +1592,17 @@
         "Ant Spawner",
         "Double Strike",
         "Blood Lust",
-        "Music Player"
+        "Music Player",
+        "Transformer",
+        "Vessel Printer",
+        "Bees Within"
     ],
     "side_decks": {
         "Eternal": {
             "type": "draft",
             "cards": [
                 "Squirrel",
+                "Bee",
                 "Geck",
                 "Rabbit",
                 "Skeleton",
@@ -1550,4 +1628,5 @@
         }
     }
 }
+
 
