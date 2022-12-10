@@ -1,6 +1,14 @@
-[
-    "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
-    "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json",
-    "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json",
-    "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sandbox.json"
-]
+{
+    "IMF Competitive Ruleset v0.19": {
+        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json"
+    },
+    "IMF Eternal v0.4": {
+        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json"
+    },
+    "IMF Vanilla v0.3": {
+        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json"
+    },
+    "SANDBOX": {
+        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sandbox.json"
+    }
+}
