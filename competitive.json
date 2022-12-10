@@ -7,7 +7,7 @@
     "max_commons_side": 10,
     "num_candles": 3,
     "variable_attack_nerf": false,
-    "opt_actives": false",
+    "opt_actives": false,
     "cards": [
         {
             "name": "Starvation",
