@@ -1,18 +1,21 @@
-[
-    { 
-        "name": "IMF Competitive v0.19",
-        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json"
-    },
-    {
-        "name": "IMF Eternal v0.4",
-        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json"
-    },
-    {
-        "name": "IMF Vanilla v0.3",
-        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json"
-    },
-    {
-        "name": "SANDBOX",
-        "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sandbox.json"
-    }
-]
+{
+    "rulesets": [
+        { 
+            "name": "IMF Competitive v0.19",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json"
+        },
+        {
+            "name": "IMF Eternal v0.4",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json"
+        },
+        {
+            "name": "IMF Vanilla v0.3",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json"
+        },
+        {
+            "name": "SANDBOX",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sandbox.json"
+        }
+    ],
+    "jake": "Welcome to the new ruleset picker!\nCommunity featured rulesets will show up here"
+}
