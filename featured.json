@@ -1,7 +1,7 @@
 {
     "rulesets": [
         { 
-            "name": "IMF Competitive v0.20",
+            "name": "IMF Competitive v0.21",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
@@ -19,5 +19,5 @@
             "portrait": "icons/Evolve2"
         }
     ],
-    "jake": "Welcome to the new ruleset picker!\nCommunity featured rulesets show up here!\nIMF Competitive updated to v0.20!\nIMF Eternal updated to v0.5!"
+    "jake": "IMF Competitive updated to v0.21!\nThe beaver remembers how to build dams now,\nand Elk Fawn is now less durable."
 }
