@@ -1,21 +1,23 @@
 {
     "rulesets": [
         { 
-            "name": "IMF Competitive v0.19",
-            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json"
+            "name": "IMF Competitive v0.20",
+            "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
+            "portrait": "portraits/Stoat"
         },
         {
-            "name": "IMF Eternal v0.4",
-            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json"
+            "name": "IMF Eternal v0.5",
+            "description": "New WIP format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json",
+            "portrait": "icons/Unkillable" 
         },
         {
             "name": "IMF Vanilla v0.3",
-            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json"
-        },
-        {
-            "name": "SANDBOX",
-            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/sandbox.json"
+            "description": "Vanilla act 2 gameplay.\n4 of each common in deck,\n1 of each rare",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json",
+            "portrait": "icons/Evolve2"
         }
     ],
-    "jake": "Welcome to the new ruleset picker!\nCommunity featured rulesets will show up here"
+    "jake": "Welcome to the new ruleset picker!\nCommunity featured rulesets show up here!\nIMF Competitive updated to v0.20!\nIMF Eternal updated to v0.5!"
 }
