@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Vanilla v0.3",
+    "ruleset": "IMF Vanilla v0.4",
     "side_deck": false,
     "deck_size_min": 1,
     "max_commons_main": 4,
@@ -8,6 +8,8 @@
     "variable_attack_nerf": false,
     "opt_actives": false,
     "ant_limit": 9,
+    "portrait": "icons/Evolve2",
+    "description": "Vanilla act 2 gameplay.\n4 of each common in deck,\n1 of each rare",
     "cards": [
         {
             "name": "Starvation",

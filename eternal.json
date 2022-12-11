@@ -1,13 +1,16 @@
 {
-    "ruleset": "IMF Eternal v0.4",
+    "ruleset": "IMF Eternal v0.5",
     "hammers_per_turn": 1,
-    "deck_size_min": 20,
+    "deck_size_min": 2,
     "max_commons_main": 3,
     "ant_limit": 9,
     "max_commons_side": 5,
     "num_candles": 3,
     "variable_attack_nerf": true,
     "opt_actives": true,
+    "starting_energy_max": 5,
+    "portrait": "icons/Unkillable",
+    "description": "New WIP format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
     "cards": [
         {
             "name": "Starvation",
@@ -35,6 +38,25 @@
             "attack": 2,
             "health": 1,
             "bone_cost": 3
+        },
+        {
+            "name": "Beaver",
+            "sigils": [
+                "Dam Builder"
+            ],
+            "attack": 1,
+            "health": 3,
+            "blood_cost": 2
+        },
+        {
+            "name": "Dam",
+            "attack": 0,
+            "health": 2,
+            "sigils": [
+                "Mighty Leap"
+            ],
+            "nosac": true,
+            "banned": true
         },
         {
             "name": "Bee",
@@ -111,6 +133,26 @@
             ],
             "bone_cost": 3,
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+        },
+        {
+            "name": "Dire Wolf Pup",
+            "attack": 1,
+            "health": 1,
+            "sigils": [
+                "Bone Digger",
+                "Fledgling"
+            ],
+            "blood_cost": 2,
+            "evolution": "Dire Wolf"
+        },
+        {
+            "name": "Dire Wolf",
+            "attack": 2,
+            "health": 5,
+            "sigils": [
+                "Double Strike"
+            ],
+            "blood_cost": 3
         },
         {
             "name": "Eel",
@@ -672,7 +714,7 @@
             "attack": 4,
             "health": 4,
             "energy_cost": 4,
-            "evolution": "GRIZZ",
+            "evolution": "GR1ZZ",
             "banned": true
         },
         {
@@ -720,6 +762,28 @@
             "active": true
         },
         {
+            "name": "QU177",
+            "sigils": [
+                "Transformer"
+            ],
+            "attack": 2,
+            "health": 2,
+            "energy_cost": 5,
+            "evolution": "QU177 (beast)"
+        },
+        {
+            "name": "QU177 (beast)",
+            "sigils": [
+                "Transformer",
+                "Sharp Quills"
+            ],
+            "attack": 1,
+            "health": 2,
+            "energy_cost": 5,
+            "evolution": "QU177",
+            "banned": true
+        },
+        {
             "name": "SON1A",
             "sigils": [
                 "Transformer"
@@ -732,7 +796,8 @@
         {
             "name": "SON1A (beast)",
             "sigils": [
-                "Transformer"
+                "Transformer",
+                "Airborne"
             ],
             "attack": 2,
             "health": 1,
@@ -1461,6 +1526,7 @@
         "Boneless": "When a card bearing this sigil dies, no bones are awarded.",
         "Brittle": "After attacking, a card bearing this sigil perishes.",
         "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
+        "Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
         "Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
         "Detonator (5)": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 5 damage.",
         "Disentomb": "Pay 1 bone to create a skeleton in your hand.",
@@ -1595,7 +1661,9 @@
         "Music Player",
         "Transformer",
         "Vessel Printer",
-        "Bees Within"
+        "Bees Within",
+        "Dam Builder",
+        "Bomb Spewer (Eternal)"
     ],
     "side_decks": {
         "Eternal": {
@@ -1628,5 +1696,6 @@
         }
     }
 }
+
 
 
