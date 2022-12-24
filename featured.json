@@ -19,5 +19,5 @@
             "portrait": "icons/Evolve2"
         }
     ],
-    "jake": "Draugr and bots with a 'beast mode'\nshould now work properly!"
+    "jake": "Draugr and bots with a 'beast mode'\nshould now work properly!\nAlso cairns are now immune to sacrifice\ninstead of hammering."
 }
