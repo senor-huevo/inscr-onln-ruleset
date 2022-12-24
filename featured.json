@@ -1,13 +1,13 @@
 {
     "rulesets": [
         { 
-            "name": "IMF Competitive v0.21",
+            "name": "IMF Competitive v0.22",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
         },
         {
-            "name": "IMF Eternal v0.5",
+            "name": "IMF Eternal v0.6",
             "description": "New WIP format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json",
             "portrait": "icons/Unkillable" 
@@ -19,5 +19,5 @@
             "portrait": "icons/Evolve2"
         }
     ],
-    "jake": "..."
+    "jake": "Draugr and bots with a 'beast mode'\nshould now work properly!"
 }
