@@ -1,14 +1,13 @@
 {
-    "ruleset": "IMF Eternal v0.5",
+    "ruleset": "IMF Eternal v0.6",
     "hammers_per_turn": 1,
-    "deck_size_min": 2,
+    "deck_size_min": 20,
     "max_commons_main": 3,
     "ant_limit": 9,
     "max_commons_side": 5,
     "num_candles": 3,
     "variable_attack_nerf": true,
     "opt_actives": true,
-    "starting_energy_max": 5,
     "portrait": "icons/Unkillable",
     "description": "New WIP format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
     "cards": [
@@ -897,7 +896,8 @@
             "attack": 0,
             "health": 1,
             "bone_cost": 1,
-            "nosac": true
+            "nosac": true,
+            "evolution": "Skeleton"
         },
         {
             "name": "Banshee",
