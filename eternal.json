@@ -1,14 +1,13 @@
 {
-    "ruleset": "IMF Eternal v0.5",
+    "ruleset": "IMF Eternal v0.7",
     "hammers_per_turn": 1,
-    "deck_size_min": 2,
+    "deck_size_min": 20,
     "max_commons_main": 3,
     "ant_limit": 9,
     "max_commons_side": 5,
     "num_candles": 3,
     "variable_attack_nerf": true,
     "opt_actives": true,
-    "starting_energy_max": 5,
     "portrait": "icons/Unkillable",
     "description": "New WIP format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
     "cards": [
@@ -135,6 +134,15 @@
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
+            "name": "Corpse Maggots",
+            "sigils": [
+                "Corpse Eater"
+            ],
+            "attack": 1,
+            "health": 2,
+            "bone_cost": 5
+        },
+        {
             "name": "Dire Wolf Pup",
             "attack": 1,
             "health": 1,
@@ -228,6 +236,15 @@
                 "Airborne"
             ],
             "attack": 3,
+            "health": 1,
+            "blood_cost": 2
+        },
+        {
+            "name": "Rat King",
+            "sigils": [
+                "Bone King"
+            ],
+            "attack": 2,
             "health": 1,
             "blood_cost": 2
         },
@@ -897,7 +914,8 @@
             "attack": 0,
             "health": 1,
             "bone_cost": 1,
-            "nosac": true
+            "nosac": true,
+            "evolution": "Skeleton"
         },
         {
             "name": "Banshee",
@@ -1169,6 +1187,15 @@
             "description": "Dies to removal."
         },
         {
+            "name": "Gem Detonator",
+            "sigils": [
+                "Gem Detonator (5)"
+            ],
+            "attack": 1,
+            "health": 2,
+            "energy_cost": 3
+        },
+        {
             "name": "Gem Fiend",
             "sigils": [
                 "Gem Dependant"
@@ -1178,6 +1205,15 @@
             "mox_cost": [
                 "Blue"
             ]
+        },
+        {
+            "name": "Gem Guardian",
+            "sigils": [
+                "Gem Guardian"
+            ],
+            "attack": 1,
+            "health": 2,
+            "energy_cost": 3
         },
         {
             "name": "Green Mage",
@@ -1526,6 +1562,7 @@
         "Boneless": "When a card bearing this sigil dies, no bones are awarded.",
         "Brittle": "After attacking, a card bearing this sigil perishes.",
         "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
+        "Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
         "Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
         "Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
         "Detonator (5)": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 5 damage.",
@@ -1543,6 +1580,8 @@
         "Frozen Away": "When a card bearing this sigil perishes, the creature inside is released in its place.",
         "Gem Animator": "Mox cards on the owner's side of the board gain 1 power.",
         "Gem Dependant": "If a card bearing this sigil's owner controls no mox cards, a card bearing this sigil perishes.",
+        "Gem Detonator (5)": "When Mox cards on the owner's side of the board die, they Detonate (the creature opposing them, as well as adjacent friendly creatures, are dealt 5 damage).",
+        "Gem Guardian": "When a card bearing this sigil is played, all Moxa cards on the owners' side of the board gain Nano Armor.",
         "Great Mox": "While a card bearing this sigil is on the board, it provides a green, orange, and blue gem to its owner.",
         "Green Mox": "While a card bearing this sigil is on the board, it provides a green gem to its owner.",
         "Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
@@ -1663,7 +1702,10 @@
         "Vessel Printer",
         "Bees Within",
         "Dam Builder",
-        "Bomb Spewer (Eternal)"
+        "Bomb Spewer (Eternal)",
+        "Corpse Eater",
+        "Gem Guardian",
+        "Gem Detonator (5)"
     ],
     "side_decks": {
         "Eternal": {

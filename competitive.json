@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.21",
+    "ruleset": "IMF Competitive Ruleset v0.23",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -132,6 +132,36 @@
             "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
         },
         {
+            "name": "Corpse Maggots",
+            "sigils": [
+                "Corpse Eater"
+            ],
+            "attack": 1,
+            "health": 2,
+            "bone_cost": 4
+        },
+        {
+            "name": "The Daus",
+            "sigils": [
+                "Bellist"
+            ],
+            "attack": 2,
+            "health": 2,
+            "blood_cost": 2,
+            "rare": true,
+            "banned": true
+        },
+        {
+            "name": "Chime",
+            "attack": 0,
+            "health": 1,
+            "sigils": [
+                "Mighty Leap"
+            ],
+            "nosac": true,
+            "banned": true
+        },
+        {
             "name": "Dire Wolf Pup",
             "attack": 1,
             "health": 1,
@@ -210,6 +240,15 @@
             "health": 1,
             "blood_cost": 1,
             "rare": true
+        },
+        {
+            "name": "Rat King",
+            "sigils": [
+                "Bone King"
+            ],
+            "attack": 2,
+            "health": 1,
+            "blood_cost": 2
         },
         {
             "name": "Raven Egg",
@@ -759,7 +798,7 @@
             "attack": 4,
             "health": 4,
             "energy_cost": 4,
-            "evolution": "GRIZZ",
+            "evolution": "GR1ZZ",
             "banned": true
         },
         {
@@ -855,7 +894,7 @@
             "attack": 2,
             "health": 2,
             "energy_cost": 5,
-            "evolution": "QUI77 (beast)"
+            "evolution": "QU177 (beast)"
         },
         {
             "name": "QU177 (beast)",
@@ -866,7 +905,7 @@
             "attack": 1,
             "health": 2,
             "energy_cost": 5,
-            "evolution": "QUI77",
+            "evolution": "QU177",
             "banned": true
         },
         {
@@ -882,7 +921,8 @@
         {
             "name": "SON1A (beast)",
             "sigils": [
-                "Transformer"
+                "Transformer",
+                "Airborne"
             ],
             "attack": 2,
             "health": 1,
@@ -969,7 +1009,8 @@
             "attack": 0,
             "health": 1,
             "bone_cost": 1,
-            "nosac": true
+            "nosac": true,
+            "evolution": "Skeleton"
         },
         {
             "name": "Banshee",
@@ -1300,6 +1341,15 @@
             "description": "Dies to removal."
         },
         {
+            "name": "Gem Detonator",
+            "sigils": [
+                "Gem Detonator (5)"
+            ],
+            "attack": 1,
+            "health": 2,
+            "energy_cost": 3
+        },
+        {
             "name": "Gem Fiend",
             "sigils": [
                 "Gem Dependant"
@@ -1309,6 +1359,15 @@
             "mox_cost": [
                 "Blue"
             ]
+        },
+        {
+            "name": "Gem Guardian",
+            "sigils": [
+                "Gem Guardian"
+            ],
+            "attack": 1,
+            "health": 2,
+            "energy_cost": 3
         },
         {
             "name": "Green Mage",
@@ -1798,7 +1857,7 @@
             "sigils": [
                 "Sprinter"
             ],
-            "nohammer": true,
+            "nosac": true,
             "banned": true,
             "description": "Custom card by Garf, zpan0317, and Me!"
         },
@@ -1829,6 +1888,7 @@
         "Attack Conduit": "Other creatures within a circuit completed by a card bearing this sigil gain 1 power.",
         "Battery Bearer": "When a card bearing this sigil is played, it provides an energy cell to its owner.",
         "Bees Within": "Once a card bearing this sigil is struck, a Bee is created in your hand.",
+        "Bellist": "When a card bearing this sigil is played, a Chime is created on each empty adjacent space.",
         "Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
         "Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
         "Blue Mox": "While a card bearing this sigil is on the board, it provides a blue gem to its owner.",
@@ -1840,6 +1900,7 @@
         "Boneless": "When a card bearing this sigil dies, no bones are awarded.",
         "Brittle": "After attacking, a card bearing this sigil perishes.",
         "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
+        "Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
         "Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
         "Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
         "Detonator (5)": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 5 damage.",
@@ -1857,6 +1918,8 @@
         "Frozen Away": "When a card bearing this sigil perishes, the creature inside is released in its place.",
         "Gem Animator": "Mox cards on the owner's side of the board gain 1 power.",
         "Gem Dependant": "If a card bearing this sigil's owner controls no mox cards, a card bearing this sigil perishes.",
+        "Gem Detonator (5)": "When Mox cards on the owner's side of the board die, they Detonate (the creature opposing them, as well as adjacent friendly creatures, are dealt 5 damage).",
+        "Gem Guardian": "When a card bearing this sigil is played, all Moxa cards on the owners' side of the board gain Nano Armor.",
         "Great Mox": "While a card bearing this sigil is on the board, it provides a green, orange, and blue gem to its owner.",
         "Green Mox": "While a card bearing this sigil is on the board, it provides a green gem to its owner.",
         "Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
@@ -1974,7 +2037,10 @@
         "Transformer",
         "Vessel Printer",
         "Bees Within",
-        "Dam Builder"
+        "Dam Builder",
+        "Corpse Eater",
+        "Gem Guardian",
+        "Gem Detonator (5)"
     ],
     "side_decks": {
         "10 Squirrels": {
