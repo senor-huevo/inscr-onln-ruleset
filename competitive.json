@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.23",
+    "ruleset": "IMF Competitive Ruleset v0.24",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -25,7 +25,7 @@
             "sigils": [
                 "Touch of Death"
             ],
-            "attack": 1,
+            "attack": 2,
             "health": 3,
             "blood_cost": 2
         },
@@ -148,8 +148,7 @@
             "attack": 2,
             "health": 2,
             "blood_cost": 2,
-            "rare": true,
-            "banned": true
+            "rare": true
         },
         {
             "name": "Chime",
@@ -626,7 +625,7 @@
             "attack": 1,
             "health": 2,
             "blood_cost": 2,
-            "description": "Custom card by SpelunkyGuy101.\nCard and sigil art by syntaxevasion"
+            "description": "Custom card by FishGuy101.\nCard and sigil art by syntaxevasion"
         },
         {
             "name": "Worker Ant",
@@ -664,7 +663,7 @@
             "sigils": [
                 "Double Strike"
             ],
-            "description": "Custom card by SpelunkyGuy101.\nCard art by Mark"
+            "description": "Custom card by FishGuy101.\nCard art by Mark"
         },
         {
             "name": "Mole Seaman",
@@ -757,7 +756,8 @@
             ],
             "attack": 1,
             "health": 1,
-            "energy_cost": 2
+            "energy_cost": 2,
+            "nosac": true
         },
         {
             "name": "Factory Conduit",
@@ -811,6 +811,17 @@
             "energy_cost": 3
         },
         {
+            "name": "Junkbot",
+            "sigils": [
+                "Depleting",
+                "Brittle"
+            ],
+            "attack": 2,
+            "health": 1,
+            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "energy_cost": 1
+        },
+        {
             "name": "L33pB0t",
             "sigils": [
                 "Mighty Leap"
@@ -838,6 +849,18 @@
             "energy_cost": 2
         },
         {
+            "name": "No Moon",
+            "sigils": [
+                "Depleting",
+                "Omni Strike"
+            ],
+            "attack": 1,
+            "health": 2,
+            "rare": true,
+            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "energy_cost": 6
+        },
+        {
             "name": "Null Conduit",
             "attack": 0,
             "health": 1,
@@ -854,6 +877,27 @@
             "energy_cost": 2,
             "rare": true,
             "active": true
+        },
+        {
+            "name": "Rustbucket",
+            "sigils": [
+                "Depleting"
+            ],
+            "attack": 2,
+            "health": 2,
+            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "energy_cost": 4
+        },
+        {
+            "name": "Scrap Golem",
+            "sigils": [
+                "Depleting",
+                "Sharp Quills"
+            ],
+            "attack": 1,
+            "health": 3,
+            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "energy_cost": 3
         },
         {
             "name": "Steel Mice",
@@ -986,7 +1030,7 @@
         {
             "name": "Thick Droid",
             "attack": 1,
-            "health": 4,
+            "health": 5,
             "energy_cost": 5,
             "description": "Note: This card's health was increased to make it worth 5 energy."
         },
@@ -1018,8 +1062,8 @@
                 "Airborne"
             ],
             "attack": 1,
-            "health": 1,
-            "bone_cost": 2
+            "health": 3,
+            "bone_cost": 3
         },
         {
             "name": "Bonehound",
@@ -1045,7 +1089,7 @@
         {
             "name": "Bone Heap",
             "sigils": [
-                "Enlarge"
+                "Enlarge (3)"
             ],
             "attack": 0,
             "health": 1,
@@ -1109,9 +1153,9 @@
             "sigils": [
                 "Bone King"
             ],
-            "attack": 1,
+            "attack": 2,
             "health": 2,
-            "bone_cost": 4
+            "bone_cost": 5
         },
         {
             "name": "Frank & Stein",
@@ -1124,11 +1168,11 @@
             "name": "Ghost Ship",
             "sigils": [
                 "Waterborne",
-                "Skeleton Crew"
+                "Skeleton Crew (Yarr)"
             ],
             "attack": 0,
             "health": 1,
-            "bone_cost": 4
+            "bone_cost": 2
         },
         {
             "name": "Gravedigger",
@@ -1236,7 +1280,7 @@
             "sigils": [
                 "Stinky"
             ],
-            "description": "This card was given the stinky sigil to differentiate it from Opossom. Suggested by SpelunkyGuy101."
+            "description": "This card was given the stinky sigil to differentiate it from Opossom. Suggested by FishGuy101."
         },
         {
             "name": "Floating Eye",
@@ -1382,7 +1426,7 @@
         {
             "name": "Junior Sage",
             "attack": 1,
-            "health": 2,
+            "health": 3,
             "mox_cost": [
                 "Green"
             ]
@@ -1425,7 +1469,7 @@
                 "Orange"
             ],
             "rare": true,
-            "description": "Note: This card was given Bifurcated Strike due to being considerably weaker than the other masters, and to give it the ability to defend adjacent gems (potentially). Suggested by SpelunkyGuy101."
+            "description": "Note: This card was given Bifurcated Strike due to being considerably weaker than the other masters, and to give it the ability to defend adjacent gems (potentially). Suggested by FishGuy101."
         },
         {
             "name": "Master Orlu",
@@ -1592,7 +1636,7 @@
             "mox_cost": [
                 "Orange"
             ],
-            "description": "Custom card by SpelunkyGuy101"
+            "description": "Custom card by FishGuy101"
         },
         {
             "name": "Mox Bunker",
@@ -1631,7 +1675,7 @@
                 "Blue",
                 "Orange"
             ],
-            "description": "Custom card by SpelunkyGuy101\nServed his sentence"
+            "description": "Custom card by FishGuy101\nServed his sentence"
         },
         {
             "name": "Life Mage",
@@ -1644,7 +1688,7 @@
                 "Blue"
             ],
             "bone_cost": 3,
-            "description": "Custom card by SpelunkyGuy101"
+            "description": "Custom card by FishGuy101"
         },
         {
             "name": "Dragon Egg",
@@ -1657,7 +1701,7 @@
                 "Orange"
             ],
             "evolution": "Ruby Dragon",
-            "description": "Custom card by SpelunkyGuy101.\nUpdated art by syntaxevasion"
+            "description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion"
         },
         {
             "name": "Ruby Dragon",
@@ -1681,7 +1725,7 @@
             ],
             "attack": 1,
             "health": 1,
-            "description": "Custom card by SpelunkyGuy101"
+            "description": "Custom card by FishGuy101"
         },
         {
             "name": "Holo Mox",
@@ -1694,7 +1738,7 @@
             "energy_cost": 2,
             "attack": 0,
             "health": 1,
-            "description": "Custom card by SpelunkyGuy101"
+            "description": "Custom card by FishGuy101"
         },
         {
             "name": "Winged Guardian",
@@ -1785,7 +1829,7 @@
             ],
             "attack": 0,
             "health": 2,
-            "energy_cost": 3,
+            "energy_cost": 2,
             "nosac": true,
             "banned": true
         },
@@ -1815,7 +1859,7 @@
             "name": "Conductive Vessel",
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 1,
             "nosac": true,
             "conduit": true,
             "banned": true
@@ -1837,7 +1881,10 @@
             "health": 1,
             "rare": true,
             "banned": true,
-            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod.",
+            "sigils": [
+                "Omni Strike"
+            ]
         },
         {
             "name": "Acid Squirrel",
@@ -1888,7 +1935,7 @@
         "Attack Conduit": "Other creatures within a circuit completed by a card bearing this sigil gain 1 power.",
         "Battery Bearer": "When a card bearing this sigil is played, it provides an energy cell to its owner.",
         "Bees Within": "Once a card bearing this sigil is struck, a Bee is created in your hand.",
-        "Bellist": "When a card bearing this sigil is played, a Chime is created on each empty adjacent space.",
+        "Bellist": "When a card bearing this sigil is played, a Chime is created on each empty adjacent space. A card bearing this sigil will perform a retaliatory attack against any card striking a Chime.",
         "Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
         "Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
         "Blue Mox": "While a card bearing this sigil is on the board, it provides a blue gem to its owner.",
@@ -1902,16 +1949,18 @@
         "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
         "Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
         "Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
+        "Depleting": "When a card bearing this sigil is played, 2 energy cells are removed from its owner",
         "Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
         "Detonator (5)": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 5 damage.",
         "Disentomb": "Pay 1 bone to create a skeleton in your hand.",
-        "Disentomb (Corpses)": "Pay 1 bone to create a withered corpse in your hand.",
+        "Disentomb (Corpses)": "Pay 2 bones to create a withered corpse in your hand.",
         "Double Death": "When another creature you own dies, it is returned to life and dies again immediately.",
         "Double Strike": "A card bearing this Sigil will strike the opposing space an extra time when attacking.",
         "Energy Conduit": "If a card bearing this sigil is part of a completed circuit, your energy never depletes.",
         "Energy Conduit (+3)": "If a card bearing this sigil is part of a completed circuit, your maximum energy increases by 3.",
         "Energy Gun": "Pay 1 energy to deal 1 damage to the creature across from a card bearing this sigil.",
         "Enlarge": "Pay 2 bones to increase the power and health of a card bearing this sigil by 1.",
+        "Enlarge (3)": "Pay 3 bones to increase the power and health of a card bearing this sigil by 1.",
         "Fecundity": "When a card bearing this sigil is played, a copy of it is created in your hand.",
         "Fecundity (Kaycee)": "When a card bearing this sigil is played, a copy of it is created in your hand without this sigil.",
         "Fledgling": "A card bearing this sigil will grow into a more powerful form after 1 turn on the board.",
@@ -1935,6 +1984,7 @@
         "Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
         "Music Player": "A card bearing this sigil plays a song of your choice when played",
         "Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
+        "Omni Strike": "A card bearing this sigil will strike all opposing spaces.",
         "Power Dice": "Pay 1 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
         "Power Dice (2)": "Pay 2 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
         "Rabbit Hole": "When a card bearing this sigil is played, a Rabbit is created in your hand.",
@@ -1947,6 +1997,7 @@
         "Sharp Quills": "Once a card bearing this sigil is struck, the striker is then dealt a single damage point.",
         "Side Hustle": "When a card bearing this sigil deals damage directly, draw a card from your side deck for each damage dealt.",
         "Skeleton Crew": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a skeleton in its old space.",
+        "Skeleton Crew (Yarr)": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a pirate skeleton in its old space.",
         "Spawn Conduit": "Empty spaces within a circuit completed by a card bearing this sigil spawn L33pB0ts at the end of the owner's turn.",
         "Sprinter": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil.",
         "Squirrel Shedder": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a squirrel in their old space.",
@@ -2040,7 +2091,12 @@
         "Dam Builder",
         "Corpse Eater",
         "Gem Guardian",
-        "Gem Detonator (5)"
+        "Gem Detonator (5)",
+        "Depleting",
+        "Bellist",
+        "Omni Strike",
+        "Enlarge (3)",
+        "Skeleton Crew (Yarr)"
     ],
     "side_decks": {
         "10 Squirrels": {
