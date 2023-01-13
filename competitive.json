@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.24",
+    "ruleset": "IMF Competitive Ruleset v0.25",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -818,7 +818,7 @@
             ],
             "attack": 2,
             "health": 1,
-            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
             "energy_cost": 1
         },
         {
@@ -857,7 +857,7 @@
             "attack": 1,
             "health": 2,
             "rare": true,
-            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
             "energy_cost": 6
         },
         {
@@ -885,7 +885,7 @@
             ],
             "attack": 2,
             "health": 2,
-            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
             "energy_cost": 4
         },
         {
@@ -896,7 +896,7 @@
             ],
             "attack": 1,
             "health": 3,
-            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
             "energy_cost": 3
         },
         {
@@ -1881,10 +1881,7 @@
             "health": 1,
             "rare": true,
             "banned": true,
-            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod.",
-            "sigils": [
-                "Omni Strike"
-            ]
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
         },
         {
             "name": "Acid Squirrel",

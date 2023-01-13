@@ -1,7 +1,7 @@
 {
     "rulesets": [
         { 
-            "name": "IMF Competitive v0.24",
+            "name": "IMF Competitive v0.25",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
@@ -19,5 +19,5 @@
             "portrait": "icons/Evolve2"
         }
     ],
-    "jake": "Lots of balance for IMF Comp!"
+    "jake": "Geck no longer has omni strike\nshame."
 }
