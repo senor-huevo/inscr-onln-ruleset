@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.26",
+    "ruleset": "IMF Competitive Ruleset v0.27",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -1042,12 +1042,14 @@
         {
             "name": "Thick",
             "attack": 1,
-            "health": 3
+            "health": 3,
+            "banned": true
         },
         {
             "name": "Droid",
             "attack": 1,
-            "health": 3
+            "health": 3,
+            "banned": true
         },
         {
             "name": "Jukebot",

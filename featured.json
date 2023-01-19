@@ -1,7 +1,7 @@
 {
     "rulesets": [
         { 
-            "name": "IMF Competitive v0.26",
+            "name": "IMF Competitive v0.27",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
