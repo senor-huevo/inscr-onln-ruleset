@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Competitive Ruleset v0.25",
+    "ruleset": "IMF Competitive Ruleset v0.26",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -1030,9 +1030,24 @@
         {
             "name": "Thick Droid",
             "attack": 1,
-            "health": 5,
+            "health": 3,
             "energy_cost": 5,
-            "description": "Note: This card's health was increased to make it worth 5 energy."
+            "description": "Damn Boi!",
+            "sigils": [
+                "Thick"
+            ],
+            "left_half": "Thick",
+            "right_half": "Droid"
+        },
+        {
+            "name": "Thick",
+            "attack": 1,
+            "health": 3
+        },
+        {
+            "name": "Droid",
+            "attack": 1,
+            "health": 3
         },
         {
             "name": "Jukebot",
@@ -2002,6 +2017,7 @@
         "Stimulate": "Pay 3 energy to increase the power and health of a card bearing this sigil by 1.",
         "Stimulate (4)": "Pay 4 energy to increase the power and health of a card bearing this sigil by 1.",
         "Tentacle": "Includes effect of Waterborne. In addition, a card bearing this sigil will transform into a random tentacle at the start of each turn.",
+        "Thick": "A card bearing this sigil is juicy, and takes up 2 spaces.",
         "Touch of Death": "When a card bearing this sigil damages another creature, that creature perishes.",
         "Transformer": "At the beginning of your turn a card bearing this sigil will transform to, or from, Beast mode.",
         "Trifurcated Strike": "A card bearing this sigil will strike each opposing space to the left, right, and center of it.",
@@ -2093,7 +2109,8 @@
         "Bellist",
         "Omni Strike",
         "Enlarge (3)",
-        "Skeleton Crew (Yarr)"
+        "Skeleton Crew (Yarr)",
+        "Thick"
     ],
     "side_decks": {
         "10 Squirrels": {
