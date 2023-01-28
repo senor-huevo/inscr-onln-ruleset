@@ -1,7 +1,7 @@
 {
     "rulesets": [
         { 
-            "name": "IMF Competitive v0.27",
+            "name": "IMF Competitive v0.28",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
@@ -13,7 +13,7 @@
             "portrait": "portraits/Ouroboros" 
         },
         {
-            "name": "IMF Vanilla v0.4",
+            "name": "IMF Vanilla v0.5",
             "description": "Vanilla act 2 gameplay.\n4 of each common in deck,\n1 of each rare",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json",
             "portrait": "icons/Evolve2"
