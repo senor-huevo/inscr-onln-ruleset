@@ -7,10 +7,10 @@
             "portrait": "portraits/Stoat"
         },
         {
-            "name": "IMF Eternal v0.7",
+            "name": "IMF Eternal v0.8",
             "description": "New WIP format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json",
-            "portrait": "icons/Unkillable" 
+            "portrait": "portraits/Ouroboros" 
         },
         {
             "name": "IMF Vanilla v0.4",
