@@ -1152,7 +1152,8 @@
 			"attack": 1,
 			"health": 1,
 			"bone_cost": 5,
-			"description": "Note: Was made common due to lack of use."
+			"description": "Note: Was made common due to lack of use.\nThen rare again.",
+            "rare": true
 		},
 		{
 			"name": "Pharaoh's Pets",
@@ -1776,13 +1777,13 @@
 			"mox_cost": [
 				"Orange"
 			],
+            "blood_cost": 1,
 			"sigils": [
 				"Sprinter"
 			],
-			"energy_cost": 2,
-			"attack": 1,
+			"attack": 2,
 			"health": 2,
-			"description": "Custom card by Ener"
+			"description": "Custom card by ener"
 		},
 		{
 			"name": "Winged Guardian",
