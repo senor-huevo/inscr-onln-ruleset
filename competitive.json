@@ -1,5 +1,5 @@
 {
-	"ruleset": "IMF Competitive Ruleset v0.28",
+	"ruleset": "IMF Competitive Ruleset v0.29",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
 	"deck_size_min": 1,
@@ -2214,6 +2214,5 @@
 			"card": "Moon Shard",
 			"count": 10
 		}
-	},
-	"starting_energy_max": 6
+	}
 }
