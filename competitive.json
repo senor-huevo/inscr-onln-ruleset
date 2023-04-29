@@ -1,5 +1,5 @@
 {
-	"ruleset": "IMF Competitive v0.29",
+	"ruleset": "IMF Competitive v0.30",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
 	"deck_size_min": 1,
@@ -9,8 +9,10 @@
 	"variable_attack_nerf": false,
 	"allow_snuffing_candles": true,
 	"opt_actives": false,
+    "enable_backrow": false,
 	"portrait": "portraits/Stoat",
 	"description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
+    "starting_bones": 8,
 	"cards": [
 		{
 			"name": "Starvation",
@@ -1499,7 +1501,7 @@
 				"Orange"
 			],
 			"rare": true,
-			"description": "Note: This card was given Bifurcated Strike due to being considerably weaker than the other masters, and to give it the ability to defend adjacent gems (potentially). Suggested by FishGuy101."
+			"description": "He got buffed a while back. Thanks FishGuy101!"
 		},
 		{
 			"name": "Master Orlu",
