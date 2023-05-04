@@ -8,7 +8,7 @@
         },
         {
             "name": "IMF Eternal v0.8",
-            "description": "New WIP format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
+            "description": "New format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/eternal.json",
             "portrait": "portraits/Ouroboros" 
         },
