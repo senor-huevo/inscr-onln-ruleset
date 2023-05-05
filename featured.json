@@ -17,7 +17,13 @@
             "description": "Vanilla act 2 gameplay.\n4 of each common in deck,\n1 of each rare",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json",
             "portrait": "portraits/Cat"
+        }, 
+        {
+            "name": "Parallel Universe v0.1",
+            "description": "Woah everything's different!!\nA clean-room reimagining\nof every card by Trollbreeder\n(with strange balancing, i'm sorry\nit's gonna be like that),
+            "url": "https://raw.githubusercontent.com/trollbreeder/imf-parallel-universe/main/Parallel%20Universe.json",
+            "portrait":"portraits/Amoeba"
         }
     ],
-    "jake": "IMF competitive was updated specifically\nbecause Goranj's text was too long"
+    "jake": "New Ruleset just drop \"Parallel Universe v0.1\", check it out!"
 }
