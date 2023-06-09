@@ -19,11 +19,17 @@
             "portrait": "portraits/Cat"
         }, 
         {
-            "name": "Parallel Universe v0.1",
+            "name": "Parallel Universe v0.2",
             "description": "Woah everything's different!!\nA clean-room reimagining\nof every card by Trollbreeder\n(with strange balancing, i'm sorry\nit's gonna be like that)",
             "url": "https://raw.githubusercontent.com/trollbreeder/imf-parallel-universe/main/Parallel%20Universe.json",
             "portrait":"portraits/Amoeba"
+        },
+        {
+            "name": "Mr.Egg's Goofy",
+            "description": "Balanced by Mr.Egg and every whim he has",
+            "url": "https://cdn.discordapp.com/attachments/1003472808615084102/1116520677713924137/Mr.Eggs_Goofy.json",
+            "portrait": "pixport/Raven Egg"
         }
     ],
-    "jake": "New Ruleset just drop \"Parallel Universe v0.1\", check it out!"
+    "jake": "Babe wake up new ruleset just dropped"
 }
