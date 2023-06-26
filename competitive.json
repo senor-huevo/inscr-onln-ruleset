@@ -9,7 +9,7 @@
 	"variable_attack_nerf": false,
 	"allow_snuffing_candles": true,
 	"opt_actives": false,
-    "enable_backrow": false,
+	"enable_backrow": false,
 	"portrait": "portraits/Stoat",
 	"description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
 	"cards": [
@@ -115,6 +115,17 @@
 			"attack": 1,
 			"health": 3,
 			"blood_cost": 1
+		},
+		{
+			"name": "Burrowing Trap",
+			"sigils": [
+				"Burrower",
+				"Steel Trap"
+			],
+			"attack": 0,
+			"health": 5,
+			"nosac": true,
+			"blood_cost": 2
 		},
 		{
 			"name": "Cat",
@@ -382,6 +393,15 @@
 			"description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
 		},
 		{
+			"name": "Mud Turtle",
+			"sigils": [
+				"Armored"
+			],
+			"attack": 2,
+			"health": 2,
+			"blood_cost": 2
+		},
+		{
 			"name": "Opossum",
 			"attack": 1,
 			"health": 1,
@@ -486,7 +506,7 @@
 			"name": "River Snapper",
 			"attack": 1,
 			"health": 6,
-			"blood_cost": 2,
+			"blood_cost": 1,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -498,6 +518,29 @@
 			],
 			"blood_cost": 1,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+		},
+		{
+			"name": "Strange Frog",
+			"sigils": [
+				"Mighty Leap",
+				"Frozen Away"
+			],
+			"attack": 1,
+			"health": 2,
+			"blood_cost": 1,
+			"evolution": "Leaping Trap",
+			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+		},
+		{
+			"name": "Leaping Trap",
+			"sigils": [
+				"Mighty Leap",
+				"Steel Trap"
+			],
+			"attack": 0,
+			"health": 1,
+			"nosac": true,
+			"banned": true
 		},
 		{
 			"name": "Strange Larva",
@@ -574,6 +617,15 @@
 			"blood_cost": 1,
 			"atkspecial": "mirror",
 			"banned": true
+		},
+		{
+			"name": "Raccoon",
+			"attack": 1,
+			"health": 2,
+			"sigils": [
+				"Scavenger"
+			],
+			"blood_cost": 1
 		},
 		{
 			"name": "Squirrel",
@@ -702,6 +754,15 @@
 			"health": 1,
 			"energy_cost": 2,
 			"description": "Note: The energy cost of this card was reduced to make it less terrible."
+		},
+		{
+			"name": "Alarmbot",
+			"sigils": [
+				"Annoying"
+			],
+			"attack": 2,
+			"health": 1,
+			"energy_cost": 3
 		},
 		{
 			"name": "Energy Bot",
@@ -1153,7 +1214,7 @@
 			"health": 1,
 			"bone_cost": 5,
 			"description": "Note: Was made common due to lack of use.\nThen rare again.",
-            "rare": true
+			"rare": true
 		},
 		{
 			"name": "Pharaoh's Pets",
@@ -1275,7 +1336,8 @@
 		{
 			"name": "Skeleton",
 			"sigils": [
-				"Brittle"
+				"Brittle",
+				"Scavenger"
 			],
 			"attack": 1,
 			"health": 1,
@@ -1289,8 +1351,8 @@
 			],
 			"attack": 4,
 			"health": 1,
-			"energy_cost": 4,
-			"description": "Note: Was given energy cost due to being too spammable and easy to draw into with Blue Mage."
+			"bone_cost": 2,
+			"description": "A plague is once again released upon this earth."
 		},
 		{
 			"name": "Tomb Robber",
@@ -1732,7 +1794,7 @@
 			"mox_cost": [
 				"Orange"
 			],
-            "evolution": "Ruby Dragon",
+			"evolution": "Ruby Dragon",
 			"description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion"
 		},
 		{
@@ -1778,13 +1840,13 @@
 			"mox_cost": [
 				"Orange"
 			],
-            "blood_cost": 1,
+			"blood_cost": 1,
 			"sigils": [
 				"Sprinter"
 			],
 			"attack": 2,
 			"health": 2,
-			"description": "Custom card by ener"
+			"description": "How hungry?\n\nCustom card by ener"
 		},
 		{
 			"name": "Winged Guardian",
@@ -1837,6 +1899,17 @@
 				"Sprinter"
 			],
 			"description": "Custom card by SYNTHIA_2000"
+		},
+		{
+			"name": "N.YLKB",
+			"blood_cost": 1,
+			"sigils": [
+				"Scopophobic"
+			],
+			"attack": 1,
+			"health": 1,
+			"gamma": "CFKA QEB EBXOQ.",
+			"description": "Hljkw-Hljkw-Wzr::Ghvfulswlrq::Qlqhwhhq"
 		},
 		{
 			"name": "Withered Corpse",
@@ -1944,7 +2017,8 @@
 			"health": 1,
 			"bone_cost": -1,
 			"sigils": [
-				"Sprinter"
+				"Sprinter",
+				"Bone Digger"
 			],
 			"nosac": true,
 			"banned": true,
@@ -1965,6 +2039,9 @@
 		},
 		{
 			"name": "The Moon",
+			"sigils": [
+				"Made of Stone"
+			],
 			"attack": 1,
 			"health": 40,
 			"banned": true
