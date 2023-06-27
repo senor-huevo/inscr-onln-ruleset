@@ -1,5 +1,5 @@
 {
-	"ruleset": "IMF Competitive v0.31",
+	"ruleset": "IMF Competitive v0.33",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
 	"deck_size_min": 1,
@@ -41,6 +41,15 @@
 			"attack": 2,
 			"health": 3,
 			"blood_cost": 2
+		},
+		{
+			"name": "Amalgam",
+			"sigils": [
+				"Amalgamation"
+			],
+			"attack": 0,
+			"health": 1,
+			"rare": true
 		},
 		{
 			"name": "Bat",
