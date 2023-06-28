@@ -1,5 +1,5 @@
 {
-	"ruleset": "IMF Competitive v0.33",
+	"ruleset": "IMF Competitive v0.34",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
 	"deck_size_min": 1,
@@ -49,7 +49,8 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"rare": true
+			"rare": true,
+            "blood_cost": 2
 		},
 		{
 			"name": "Bat",
@@ -538,7 +539,8 @@
 			"health": 2,
 			"blood_cost": 1,
 			"evolution": "Leaping Trap",
-			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion.",
+            "nosac": true
 		},
 		{
 			"name": "Leaping Trap",
@@ -1908,17 +1910,6 @@
 				"Sprinter"
 			],
 			"description": "Custom card by SYNTHIA_2000"
-		},
-		{
-			"name": "N.YLKB",
-			"blood_cost": 1,
-			"sigils": [
-				"Scopophobic"
-			],
-			"attack": 1,
-			"health": 1,
-			"gamma": "CFKA QEB EBXOQ.",
-			"description": "Hljkw-Hljkw-Wzr::Ghvfulswlrq::Qlqhwhhq"
 		},
 		{
 			"name": "Withered Corpse",
