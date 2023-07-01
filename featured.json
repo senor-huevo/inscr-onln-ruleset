@@ -19,12 +19,6 @@
             "portrait": "portraits/Cat"
         }, 
         {
-            "name": "Parallel Universe v0.2",
-            "description": "Woah everything's different!!\nA clean-room reimagining\nof every card by Trollbreeder\n(with strange balancing, i'm sorry\nit's gonna be like that)",
-            "url": "https://raw.githubusercontent.com/trollbreeder/imf-parallel-universe/main/Parallel%20Universe.json",
-            "portrait":"portraits/Amoeba"
-        },
-        {
             "name": "Mr.Egg's Goofy",
             "description": "Balanced by Mr.Egg and every whim he has",
             "url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Mr.Egg's%20Goofy.json",
