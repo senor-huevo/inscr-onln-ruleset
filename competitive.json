@@ -1,5 +1,5 @@
 {
-	"ruleset": "IMF Competitive v0.34",
+	"ruleset": "IMF Competitive v0.35",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
 	"deck_size_min": 1,
@@ -551,6 +551,35 @@
 			"attack": 0,
 			"health": 1,
 			"nosac": true,
+			"banned": true
+		},
+		{
+			"name": "Rabbit Pelt",
+			"attack": 0,
+			"health": 1,
+			"nosac": true
+		},
+		{
+			"name": "Wolf Pelt",
+			"attack": 0,
+			"health": 2,
+			"nosac": true
+		},
+		{
+			"name": "Golden Pelt",
+			"attack": 0,
+			"health": 3,
+			"nosac": true,
+			"rare": true
+		},
+		{
+			"name": "Pelt Lice",
+			"attack": 1,
+			"health": 1,
+			"blood_cost": 4,
+			"sigils": [
+				"Double Strike"
+			],
 			"banned": true
 		},
 		{
