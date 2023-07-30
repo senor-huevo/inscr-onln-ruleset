@@ -7,9 +7,9 @@
             "portrait": "portraits/Stoat"
         },
         {
-            "name": "IMF Eternal v0.10",
+            "name": "IMF Eternal",
             "description": "New format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
-            "url": "https://github.com/EternalHours/EternalFormat/blob/main/IMF_Eternal.json",
+            "url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/IMF_Eternal.json",
             "portrait": "portraits/Ouroboros" 
         },
         {
