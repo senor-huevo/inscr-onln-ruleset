@@ -1,5 +1,5 @@
 {
-	"ruleset": "IMF Vanilla v0.7",
+	"ruleset": "IMF Vanilla v0.8",
 	"side_deck": false,
 	"deck_size_min": 1,
 	"max_commons_main": 99,
@@ -536,7 +536,8 @@
 			"attack": 0,
 			"health": 1,
 			"bone_cost": 1,
-			"nosac": true
+			"nosac": true,
+			"evolution": "Skeleton"
 		},
 		{
 			"name": "Banshee",
