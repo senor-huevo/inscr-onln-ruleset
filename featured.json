@@ -1,7 +1,7 @@
 {
     "rulesets": [
         { 
-            "name": "IMF Competitive v0.36",
+            "name": "IMF Competitive v0.37",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
@@ -25,5 +25,5 @@
             "portrait": "pixport/Raven Egg"
         }
     ],
-    "jake": "Mirror bot now costs 1 energy!"
+    "jake": "Hi! I'm... Cake?"
 }
