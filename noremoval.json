@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Trust me Bro v0.02",
+    "ruleset": "IMF Trust me Bro v0.03",
     "hammers_per_turn": 1,
     "ant_limit": 100,
     "deck_size_min": 1,
@@ -434,7 +434,7 @@
         {
             "name": "Grizzly",
             "attack": 4,
-            "health": 5,
+            "health": 6,
             "blood_cost": 3
         },
         {
