@@ -1,7 +1,13 @@
 {
     "rulesets": [
-        { 
-            "name": "IMF Competitive v0.38",
+        {
+            "name": "[Limited] IMF Trust me Bro v0.01",
+            "description": "Oops! No removal!",
+            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/noremoval.json",
+            "portrait": "portraits/Skeleton"
+        },
+        {
+            "name": "IMF Competitive v0.39",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
@@ -10,14 +16,14 @@
             "name": "IMF Eternal",
             "description": "New format by EternalHours\nHas 3 candles and no custom cards (yet)\n3 of each common in main deck\n5 of each in side",
             "url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/IMF_Eternal.json",
-            "portrait": "portraits/Ouroboros" 
+            "portrait": "portraits/Ouroboros"
         },
         {
             "name": "IMF Vanilla v0.8",
             "description": "Vanilla act 2 gameplay.\n4 of each common in deck,\n1 of each rare",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/vanilla.json",
             "portrait": "portraits/Cat"
-        }, 
+        },
         {
             "name": "Mr.Egg's Goofy",
             "description": "Balanced by Mr.Egg and every whim he has",
