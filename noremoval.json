@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Trust me Bro v0.03",
+    "ruleset": "IMF Trust me Bro v0.04",
     "hammers_per_turn": 1,
     "ant_limit": 100,
     "deck_size_min": 1,
@@ -918,17 +918,6 @@
             "health": 1,
             "energy_cost": 1,
             "conduit": true
-        },
-        {
-            "name": "Plasma Jimmy",
-            "sigils": [
-                "Energy Sniper"
-            ],
-            "attack": 0,
-            "health": 2,
-            "energy_cost": 2,
-            "rare": true,
-            "active": true
         },
         {
             "name": "Rustbucket",
