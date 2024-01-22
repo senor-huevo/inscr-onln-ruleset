@@ -7,7 +7,7 @@
             "portrait": "portraits/Skeleton"
         },
         {
-            "name": "IMF Competitive v0.39",
+            "name": "IMF Competitive v0.38",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
