@@ -1,13 +1,7 @@
 {
     "rulesets": [
         {
-            "name": "[Limited] IMF Trust me Bro v0.04",
-            "description": "Oops! No removal!",
-            "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/noremoval.json",
-            "portrait": "portraits/Skeleton"
-        },
-        {
-            "name": "IMF Competitive v0.38",
+            "name": "IMF Competitive v0.39",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/competitive.json",
             "portrait": "portraits/Stoat"
@@ -31,5 +25,5 @@
             "portrait": "pixport/Raven Egg"
         }
     ],
-    "jake": "I'm working on a new\nupdater."
+    "jake": "Latchers are fixed now!\nRight?"
 }

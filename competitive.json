@@ -1,5 +1,5 @@
 {
-	"ruleset": "IMF Competitive v0.38",
+	"ruleset": "IMF Competitive v0.39",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
 	"deck_size_min": 1,
@@ -1496,6 +1496,17 @@
 			]
 		},
 		{
+    		"name": "Voodoo Doll",
+    		"attack": 0,
+    		"health": 1,
+    		"bone_cost": 3,
+    		"sigils": [
+        		"Acupuncture"
+    		],
+    		"active": true,
+    		"description": "Custom card by ener. Art by syntaxevasion"
+		},
+		{
 			"name": "Gourmage",
 			"sigils": [
 				"Enlarge"
@@ -2097,9 +2108,9 @@
 				"Mighty Leap",
 				"Made of Stone"
 			],
+			"energy_cost": 6,
 			"attack": 0,
 			"health": 5,
-			"energy_cost": 6,
 			"nosac": false,
 			"description": "Emits a pale white light. You feel as though it calls to its brethren.",
 			"banned": true
