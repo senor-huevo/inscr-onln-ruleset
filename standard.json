@@ -11,7 +11,7 @@
     "opt_actives": false,
     "enable_backrow": false,
     "portrait": "portraits/Stoat",
-    "description": "Opinionated balance by the dev and community\nThe original ruleset for this game.\nIncludes custom cards",
+    "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
     "cards": [
         {
             "name": "Starvation",
