@@ -806,7 +806,7 @@
         },
         {
             "name": "Plasma Jimmy",
-            "sigils": ["Energy Sniper"],
+            "sigils": ["Energy Gun"],
             "attack": 0,
             "health": 3,
             "energy_cost": 2,
