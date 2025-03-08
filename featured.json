@@ -1,7 +1,7 @@
 {
     "rulesets": [
         {
-            "name": "IMF Standard v0.42",
+            "name": "IMF Standard v0.43",
             "description": "Opinionated balance by the dev\nThe original ruleset for this game.\nIncludes custom cards",
             "url": "https://raw.githubusercontent.com/107zxz/inscr-onln-ruleset/main/standard.json",
             "portrait": "portraits/Stoat"
@@ -25,5 +25,5 @@
             "portrait": "pixport/Raven Egg"
         }
     ],
-    "jake": "IMF Competitive is now IMF Standard.\nNew balance changes! Check it out :3!"
+    "jake": "IMF Standard v0.43 is required for v0.3.9999!\nOtherwise tentacles don't work"
 }

@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Standard v0.42",
+    "ruleset": "IMF Standard v0.43",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -520,7 +520,8 @@
             "attack": 0,
             "health": 3,
             "blood_cost": 2,
-            "banned": true
+            "banned": true,
+            "atkspecial": "Bell"
         },
         {
             "name": "Hand Tentacle",
@@ -528,7 +529,8 @@
             "attack": 0,
             "health": 1,
             "blood_cost": 1,
-            "banned": true
+            "banned": true,
+            "atkspecial": "Hand"
         },
         {
             "name": "Mirror Tentacle",
