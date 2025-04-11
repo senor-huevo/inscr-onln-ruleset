@@ -1,5 +1,5 @@
 {
-    "ruleset": "IMF Standard v0.43",
+    "ruleset": "IMF Standard v0.44",
     "hammers_per_turn": 1,
     "ant_limit": 2,
     "deck_size_min": 1,
@@ -34,7 +34,8 @@
             "sigils": ["Touch of Death"],
             "attack": 1,
             "health": 1,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "Finally after all the trials and tribulations, it's a 1-Blood."
         },
         {
             "name": "Amalgam",
@@ -56,7 +57,8 @@
             "sigils": ["Dam Builder"],
             "attack": 1,
             "health": 2,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "Made a 1-Blood to be a more acceptable card \n Dams are defined as a Free Bloodless 0/2 with Mightly Leap."
         },
         {
             "name": "Dam",
@@ -78,7 +80,8 @@
             "sigils": ["Bees Within", "Mighty Leap"],
             "attack": 0,
             "health": 3,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "Increased the health by 1 \n and added Migthy Leap to make it less ass.\n A Bee is defined as a Free Airborne 1/1 "
         },
         {
             "name": "Black Goat",
@@ -100,7 +103,8 @@
             "sigils": ["Mighty Leap"],
             "attack": 1,
             "health": 3,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "Health was increased by 1 to make it half way passable."
         },
         {
             "name": "Burrowing Trap",
@@ -109,20 +113,23 @@
             "health": 4,
             "nosac": true,
             "blood_cost": 1,
-            "rare": true
+            "rare": true,
+            "description": "Made Rare, cost decreased to 1-Blood, and health reduced to 4, \n to reduce the downside of giving material to the opponent."
         },
         {
             "name": "Cat",
             "sigils": ["Many Lives"],
             "attack": 0,
             "health": 1,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "Was made rare to nerf it\n then made common to buff it\n when sacrificed 9 times, it releases an Undead Cat.\n An Undead Cat is defined as an Unkillable 3-Blood 3/6 "
         },
         {
             "name": "Undead Cat",
             "attack": 3,
             "health": 6,
-            "blood_cost": 1,
+            "blood_cost": 3,
+            "sigils": ["Unkillable"],
             "banned": true
         },
         {
@@ -146,7 +153,8 @@
             "attack": 2,
             "health": 2,
             "blood_cost": 2,
-            "rare": true
+            "rare": true,
+            "description": "The Chimes buffs adjacent cards bearing the sigil Bell Ringer.\n A Chime is defined as a Free Bloodless 0/1 with Mighty Leap."
         },
         {
             "name": "Chime",
@@ -162,7 +170,8 @@
             "health": 2,
             "sigils": ["Bone Digger", "Fledgling 2"],
             "blood_cost": 1,
-            "evolution": "Dire Wolf"
+            "evolution": "Dire Wolf",
+            "description": "Made a 1-Blood to make it less ass, but given Fledgling 2 to keep it balanced."
         },
         {
             "name": "Dire Wolf",
@@ -184,7 +193,8 @@
             "attack": 1,
             "health": 2,
             "blood_cost": 1,
-            "evolution": "Elk"
+            "evolution": "Elk",
+            "description": "Despite the cries to nerf it, it carrried on."
         },
         {
             "name": "Field Mice",
@@ -254,7 +264,8 @@
             "sigils": ["Sprinter", "Touch of Death"],
             "sheds": "Vertebrae",
             "bone_cost": 4,
-            "rare": true
+            "rare": true,
+            "description": "Sheds a Vertebrae at the end of the Owner's turn.\n A Vertebrae is defined as a free 0/1."
         },
         {
             "name": "Vertebrae",
@@ -267,7 +278,8 @@
             "attack": 1,
             "health": 2,
             "sigils": ["Leader"],
-            "bone_cost": 5
+            "bone_cost": 5,
+            "description": "used to cost 4-Bones, but was increased to 5-Bones to prevent OTK's."
         },
         {
             "name": "Magpie",
@@ -275,7 +287,7 @@
             "attack": 1,
             "health": 1,
             "blood_cost": 2,
-            "description": "This card was unused in act 2, but had art.",
+            "description": "Had unused art for Act 2 art.\n Was made Rare to prevent degenerate Combo decks from being the Meta, thanks Eternal.",
             "rare": true
         },
         {
@@ -297,8 +309,9 @@
             "name": "Mole",
             "sigils": ["Burrower"],
             "attack": 0,
-            "health": 4,
-            "blood_cost": 1
+            "health": 5,
+            "blood_cost": 1,
+            "description": "Had health increased by 1 to make it less garbage."
         },
         {
             "name": "Mole Man",
@@ -336,7 +349,8 @@
             "health": 1,
             "blood_cost": 2,
             "rare": true,
-            "description": "This card gains 1 power and 1 health each time it perishes."
+            "death_buff": true,
+            "description": "This card gains 1 power and 1 health each time it perishes.\n All friendly copies of this card now buff eachother."
         },
         {
             "name": "Rabbit",
@@ -349,7 +363,7 @@
             "health": 3,
             "bone_cost": 2,
             "sigils": ["Stinky"],
-            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+            "description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod.\n Was made to cost 2-Bones because 1-Blood is a horrible cost; it's all ass."
         },
         {
             "name": "Coyote",
@@ -378,7 +392,8 @@
             "name": "Grizzly",
             "attack": 4,
             "health": 6,
-            "blood_cost": 3
+            "blood_cost": 3,
+            "description": "Wenft back to 6 health."
         },
         {
             "name": "Porcupine",
@@ -422,7 +437,7 @@
             "attack": 1,
             "health": 6,
             "blood_cost": 1,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion.\n Was made a 1-Blood to make it a pretty good card."
         },
         {
             "name": "Sparrow",
@@ -485,13 +500,13 @@
             "blood_cost": 1,
             "evolution": "Strange Pupa",
             "rare": true,
-            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+            "description": "Ported from Act 1. Act 2 sprite by syntaxevasion.\n It gains 1 health each evolution to make its survivablity higher."
         },
         {
             "name": "Strange Pupa",
             "sigils": ["Fledgling"],
             "attack": 0,
-            "health": 3,
+            "health": 4,
             "blood_cost": 1,
             "banned": true,
             "evolution": "Mothman",
@@ -501,7 +516,7 @@
             "name": "Mothman",
             "sigils": ["Airborne"],
             "attack": 7,
-            "health": 3,
+            "health": 5,
             "blood_cost": 1,
             "banned": true,
             "rare": true
@@ -558,8 +573,9 @@
             "name": "Squirrel Ball",
             "sigils": ["Squirrel Shedder"],
             "attack": 0,
-            "health": 1,
-            "blood_cost": 1
+            "health": 2,
+            "blood_cost": 1,
+            "description": "Health was increased to make it less horrible"
         },
         {
             "name": "Stoat",
@@ -670,7 +686,8 @@
             "sigils": ["Battery Bearer"],
             "attack": 0,
             "health": 1,
-            "energy_cost": 1
+            "energy_cost": 1,
+            "description": "Cost was decreased to 1-Energy to make it actually playable."
         },
         {
             "name": "Bolthound",
@@ -730,12 +747,12 @@
         },
         {
             "name": "Gamblobot",
-            "sigils": ["Power Dice (2)"],
+            "sigils": ["Power Dice"],
             "attack": 0,
             "health": 1,
-            "energy_cost": 3,
+            "energy_cost": 4,
             "active": true,
-            "description": "Note: The cost of this ability was increased to 2 energy due to this card being very strong for its cost."
+            "description": "originally had Power Dice (2), but that made it too ass.\n Now has an extra chance to pop off."
         },
         {
             "name": "GR1ZZ",
@@ -743,7 +760,8 @@
             "attack": 0,
             "health": 4,
             "energy_cost": 4,
-            "evolution": "GR1ZZ (beast)"
+            "evolution": "GR1ZZ (beast)",
+            "description": "Cost was reduced to 4-Energry to make it somewhat playable."
         },
         {
             "name": "GR1ZZ (beast)",
@@ -758,8 +776,9 @@
             "name": "Insectodrone",
             "sigils": ["Airborne"],
             "attack": 1,
-            "health": 2,
-            "energy_cost": 3
+            "health": 1,
+            "energy_cost": 2,
+            "description": "Costed 3_Energy and 1/2 stats.\n Was reworked to 2-Energy 1/1 to be more in line with Automaton "
         },
         {
             "name": "Junkbot",
@@ -774,14 +793,16 @@
             "sigils": ["Mighty Leap"],
             "attack": 1,
             "health": 2,
-            "energy_cost": 3
+            "energy_cost": 3,
+           "description": "Made to be a 3-Energy 1/2 to make Factory Conduit less bad."
         },
         {
             "name": "M3atB0t",
             "sigils": ["Noble Sacrifice"],
             "attack": 0,
             "health": 1,
-            "energy_cost": 2
+            "energy_cost": 2,
+            "description": "Now has Noble Sacrifice to make it less of a strictly better Black Goat."
         },
         {
             "name": "49er",
@@ -813,14 +834,15 @@
             "health": 3,
             "energy_cost": 2,
             "rare": true,
-            "active": true
+            "active": true,
+            "description": "Used to have Energy Sniper and caused the Dark Ages."
         },
         {
             "name": "Rustbucket",
             "sigils": ["Depleting"],
             "attack": 2,
-            "health": 2,
-            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
+            "health": 3,
+            "description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.\n Health increased to 3 to make it less bad.",
             "energy_cost": 4
         },
         {
@@ -878,7 +900,8 @@
             "attack": 1,
             "health": 2,
             "energy_cost": 3,
-            "evolution": "SON1A (beast)"
+            "evolution": "SON1A (beast)",
+            "description": "Health was increased by 1 to make it a passable 3-Energy card."
         },
         {
             "name": "SON1A (beast)",
@@ -957,7 +980,8 @@
             "energy_cost": 1,
             "atkspecial": "mirror",
             "attack": 0,
-            "health": 1
+            "health": 1,
+            "description": "Used to cost 2-Energy and was ass."
         },
         {
             "name": "Thick Droid",
@@ -1011,7 +1035,8 @@
             "sigils": ["Guardian"],
             "attack": 2,
             "health": 3,
-            "bone_cost": 7
+            "bone_cost": 6,
+            "description": "Cost was reduced to 6-Bones\n this makes it playable"
         },
         {
             "name": "Bone Lord's Horn",
@@ -1029,7 +1054,8 @@
             "attack": 0,
             "health": 1,
             "rare": true,
-            "active": true
+            "active": true,
+            "description": "The Enlarge Ratio was changed to make it not an autoinclude in every deck."
         },
         {
             "name": "Broken Obol 1",
@@ -1043,7 +1069,8 @@
             "sigils": ["Bone King"],
             "attack": 0,
             "health": 2,
-            "bone_cost": 2
+            "bone_cost": 2,
+            "description":"Cost was reduced to 2-Bones\n to make it playable"
         },
         {
             "name": "Dead Hand",
@@ -1061,7 +1088,7 @@
             "health": 1,
             "bone_cost": 6,
             "rare": true,
-            "description": "Note: This card was made rare due to it's strength. This card will become a cat after its worthy sacrifice sigil is used.",
+            "description": "Used to have Frozen Away, but it was too bad to use",
             "evolution": "Cat"
         },
         {
@@ -1077,14 +1104,16 @@
             "sigils": ["Bone King"],
             "attack": 1,
             "health": 2,
-            "bone_cost": 4
+            "bone_cost": 4,
+            "description": "Was Buffed to 5-Bone 2/2, but was deemed too powerful.\n so it was reverted to its original stats"
         },
         {
             "name": "Frank & Stein",
             "attack": 2,
             "health": 2,
             "bone_cost": 5,
-            "conduit": true
+            "conduit": true,
+            "description": "Was given Conduit to make it not a nothing card."
         },
         {
             "name": "Ghost Ship",
@@ -1119,8 +1148,9 @@
         {
             "name": "Mummy Lord",
             "attack": 3,
-            "health": 3,
-            "bone_cost": 8
+            "health": 2,
+            "bone_cost": 7,
+            "description": "Health was reduced to 2 to make it a fair 7-Bone card.\n Was very much unplayable at 8."
         },
         {
             "name": "Necromancer",
@@ -1143,8 +1173,10 @@
             "sigils": ["Fledgling"],
             "attack": 0,
             "health": 2,
-            "bone_cost": 4,
-            "evolution": "Mummy Lord"
+            "bone_cost": 3,
+            "evolution": "Mummy Lord",
+            "nosac":true,
+            "description": "Was made bloodless, but was compensated by its cost being reduced to 3-Bones\n making it somewhat playable."
         },
         {
             "name": "Skeleton",
@@ -1176,7 +1208,7 @@
             "health": 1,
             "bone_cost": 3,
             "sigils": ["Stinky"],
-            "description": "This card was given the stinky sigil to differentiate it from Opossom. Suggested by FishGuy101."
+            "description": "This card was given the stinky sigil to differentiate it from Opossum. Suggested by FishGuy101."
         },
         {
             "name": "Floating Eye",
@@ -1192,7 +1224,7 @@
             "health": 3,
             "bone_cost": 3,
             "sigils": ["Guardian", "Made of Stone"],
-            "description": "Custom card by syntaxevasion.\nLong overdue.",
+            "description": "Custom card by syntaxevasion.\nLong overdue.\n Changed once again",
             "nosac": true
         },
         {
@@ -1213,10 +1245,9 @@
             "name": "Voodoo Doll",
             "attack": 0,
             "health": 1,
-            "bone_cost": 3,
             "sigils": ["Acupuncture"],
             "active": true,
-            "description": "Custom card and art by ener."
+            "description": "Custom card and art by ener.\n Was made free to make it actually usable."
         },
         {
             "name": "Gourmage",
@@ -1232,7 +1263,8 @@
             "attack": 0,
             "health": 1,
             "mox_cost": ["Blue"],
-            "rare": true
+            "rare": true,
+            "description": "Was made Rare to prevent degenerate Combo decks from being the Meta, thanks Eternal."
         },
         {
             "name": "Blue Sporemage",
@@ -1247,7 +1279,8 @@
             "sigils": ["Airborne"],
             "attack": 1,
             "health": 2,
-            "mox_cost": ["Blue"]
+            "mox_cost": ["Blue"],
+            "description": "was Buffed to 1/2, because 1/1 for just a Blue Gem is sad.\n Is an actual menace now."
         },
         {
             "name": "Force Mage",
@@ -1269,7 +1302,8 @@
             "sigils": ["Gem Dependant"],
             "attack": 2,
             "health": 1,
-            "mox_cost": ["Blue"]
+            "mox_cost": ["Blue"],
+            "description": "Did you know? 3 Gem Fiends is enough to steal a candle!"
         },
         {
             "name": "Gem Guardian",
@@ -1290,7 +1324,8 @@
             "name": "Junior Sage",
             "attack": 1,
             "health": 2,
-            "mox_cost": ["Green"]
+            "mox_cost": ["Green"],
+            "description": "Was made a 1/3 to make it less sad, but made Mage Knight pointless\n so it was reverted to 1/2."
         },
         {
             "name": "Mage Knight",
@@ -1324,7 +1359,7 @@
             "health": 3,
             "mox_cost": ["Orange", "Blue"],
             "rare": true,
-            "description": "Note: Attack was increased to make it an acceptable rare card and to demonstrate its sigil effect more clearly."
+            "description": "Note: Had its power and health icnreased but was too strong so power was reverted."
         },
         {
             "name": "Bleene's Mox",
@@ -1394,8 +1429,9 @@
             "name": "Orange Mage",
             "sigils": ["Gem Animator"],
             "attack": 0,
-            "health": 1,
-            "mox_cost": ["Orange"]
+            "health": 2,
+            "mox_cost": ["Orange"],
+            "description": "Health was increased to make it slightly less garbage."
         },
         {
             "name": "Practice Wizard",
@@ -1424,30 +1460,34 @@
             "attack": 0,
             "health": 2,
             "mox_cost": ["Green"],
-            "active": true
+            "active": true,
+            "description": "Stimulate used to cost 4, but it was reverted whence it was released a 1/3 for 4_Energy and a Green Gem is so ass."
         },
         {
             "name": "Mox Tower",
             "sigils": ["Sentry", "Orange Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 3,
             "mox_cost": ["Orange"],
-            "description": "Custom card by FishGuy101"
+            "description": "Custom card by FishGuy101",
+            "nosac":true
         },
         {
             "name": "Mox Bunker",
             "sigils": ["Sharp Quills", "Blue Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 3,
             "mox_cost": ["Blue"],
+            "nosac":true,
             "description": "Custom Card by BishopAdams"
         },
         {
             "name": "Mox Encampment",
             "sigils": ["Stinky", "Green Mox"],
             "attack": 0,
-            "health": 2,
+            "health": 3,
             "mox_cost": ["Green"],
+            "nosac": true,
             "description": "Custom Card by BishopAdams"
         },
         {
@@ -1456,7 +1496,7 @@
             "health": 1,
             "sigils": ["Side Hustle"],
             "mox_cost": ["Blue"],
-            "description": "Custom card by FishGuy101\nServed his sentence"
+            "description": "Custom card by FishGuy101\nServed his sentence.\n costs a Blue Gem again."
         },
         {
             "name": "Life Mage",
@@ -1471,16 +1511,16 @@
             "name": "Dragon Egg",
             "attack": 0,
             "health": 2,
-            "sigils": ["Fledgling", "Gem Dependant"],
+            "sigils": ["Fledgling 2"],
             "mox_cost": ["Orange"],
             "evolution": "Ruby Dragon",
-            "description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion"
+            "description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion\n Was nerfed heavily, but was found in a middle ground."
         },
         {
             "name": "Ruby Dragon",
             "attack": 2,
-            "health": 2,
-            "sigils": ["Bifurcated Strike", "Gem Dependant"],
+            "health": 3,
+            "sigils": ["Bifurcated Strike", "Airborne"],
             "mox_cost": ["Orange"],
             "banned": true
         },
@@ -1494,11 +1534,11 @@
         },
         {
             "name": "Holo Mox",
-            "mox_cost": ["Orange"],
-            "sigils": ["Armored"],
+            "sigils": ["Armored", "Orange Mox"],
             "energy_cost": 2,
             "attack": 0,
             "health": 1,
+            "nosac": true,
             "description": "Custom card by FishGuy101"
         },
         {
@@ -1514,7 +1554,7 @@
             "name": "Winged Guardian",
             "mox_cost": ["Orange", "Blue"],
             "attack": 1,
-            "health": 3,
+            "health": 4,
             "sigils": ["Airborne", "Mighty Leap"],
             "description": "Custom card by Flare"
         },
@@ -1562,7 +1602,7 @@
             "sigils": ["Mighty Leap"],
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 1,
             "nosac": true,
             "banned": true
         },
@@ -1589,7 +1629,7 @@
             "sigils": ["Sharp Quills"],
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 1,
             "nosac": true,
             "banned": true
         },
@@ -1607,7 +1647,7 @@
             "sigils": ["Stinky"],
             "attack": 0,
             "health": 2,
-            "energy_cost": 2,
+            "energy_cost": 1,
             "nosac": true,
             "banned": true
         },
@@ -1625,6 +1665,7 @@
             "health": 1,
             "sigils": ["Reconstitute", "Boneless"],
             "banned": true,
+            "rare":true,
             "description": "Card and art by Mark.\nThe most broken card, hopefully no longer."
         },
         {
@@ -1853,38 +1894,18 @@
             "card": "Skeleton",
             "count": 10
         },
-        "Vessels": {
-            "type": "single_cat",
-            "cards": {
-                "10 Empty": {
-                    "card": "Empty Vessel",
-                    "count": 10
-                },
-                "10 Leaping": {
-                    "card": "Leaping Vessel",
-                    "count": 10
-                },
-                "10 Energized": {
-                    "card": "Energized Vessel",
-                    "count": 10
-                },
-                "10 Bloody": {
-                    "card": "Bloody Vessel",
-                    "count": 10
-                },
-                "10 Splintered": {
-                    "card": "Splintered Vessel",
-                    "count": 10
-                },
-                "10 Conductive": {
-                    "card": "Conductive Vessel",
-                    "count": 10
-                },
-                "10 Contaminated": {
-                    "card": "Contaminated Vessel",
-                    "count": 10
-                }
-            }
+        "Vessels (draft)": {
+            "type": "draft",
+            "cards": [
+                "Empty Vessel",
+                "Leaping Vessel",
+                "Energized Vessel",
+                "Bloody Vessel",
+                "Splintered Vessel",
+                "Conductive Vessel",
+                "Contaminated Vessel"
+            ],
+            "count":10
         },
         "Mox (draft)": {
             "type": "draft",
