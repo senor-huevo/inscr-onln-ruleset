@@ -350,7 +350,7 @@
             "blood_cost": 2,
             "rare": true,
             "death_buff": true,
-            "description": "This card gains 1 power and 1 health each time it perishes.\n All friendly copies of this card now buff eachother."
+            "description": "This card gains 1 power and 1 health each time it perishes."
         },
         {
             "name": "Rabbit",
@@ -393,7 +393,7 @@
             "attack": 4,
             "health": 6,
             "blood_cost": 3,
-            "description": "Wenft back to 6 health."
+            "description": "Went back to 6 health."
         },
         {
             "name": "Porcupine",
@@ -561,7 +561,8 @@
             "attack": 1,
             "health": 1,
             "sigils": ["Scavenger"],
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "Used to be a 1/2 and had a lack luster ability./n but now is a genuine menace."
         },
         {
             "name": "Squirrel",
@@ -582,7 +583,7 @@
             "attack": 1,
             "health": 3,
             "blood_cost": 1,
-            "description": "Note: Health was increased to 3 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
+            "description": "Note: Health was increased to 3, still more or useless."
         },
         {
             "name": "Urayuli",
@@ -596,7 +597,8 @@
             "sigils": ["Rabbit Hole"],
             "attack": 0,
             "health": 2,
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "A Rabbit is defined as a free 0/1."
         },
         {
             "name": "Wolf",
@@ -625,7 +627,8 @@
             "attack": -1,
             "health": 2,
             "atkspecial": "ant",
-            "blood_cost": 1
+            "blood_cost": 1,
+            "description": "Had to be nerfed, otherwise would destroy the meta"
         },
         {
             "name": "Ant Queen",
@@ -633,7 +636,8 @@
             "health": 3,
             "atkspecial": "ant",
             "blood_cost": 2,
-            "sigils": ["Ant Spawner"]
+            "sigils": ["Ant Spawner"],
+            "description": "Had to be nerfed, otherwise would destroy the meta"
         },
         {
             "name": "Flying Ant",
@@ -641,7 +645,8 @@
             "health": 1,
             "atkspecial": "ant",
             "blood_cost": 1,
-            "sigils": ["Airborne"]
+            "sigils": ["Airborne"],
+            "description": "Had to be nerfed, otherwise would destroy the meta"
         },
         {
             "name": "Bullet Ant",
@@ -650,7 +655,7 @@
             "atkspecial": "ant",
             "blood_cost": 3,
             "sigils": ["Double Strike"],
-            "description": "Custom card by FishGuy101.\nCard art by Mark"
+            "description": "Custom card by FishGuy101.\nCard art by Mark.\n Had to be nerfed, otherwise would destroy the meta"
         },
         {
             "name": "Mole Seaman",
@@ -1247,6 +1252,7 @@
             "health": 1,
             "sigils": ["Acupuncture"],
             "active": true,
+            "nosac": true,
             "description": "Custom card and art by ener.\n Was made free to make it actually usable."
         },
         {
@@ -1461,7 +1467,7 @@
             "health": 2,
             "mox_cost": ["Green"],
             "active": true,
-            "description": "Stimulate used to cost 4, but it was reverted whence it was released a 1/3 for 4_Energy and a Green Gem is so ass."
+            "description": "Stimulate used to cost 4, but it was reverted whence it was realized that a 1/3 for 4-Energy and a Green Gem is so ass."
         },
         {
             "name": "Mox Tower",
@@ -1751,7 +1757,7 @@
     	"Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
     	"Handy": "When a card bearing this sigil is played, the owner discards their hand then draws a new hand of 4 cards.",
     	"Hefty": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil. creatures in the way will be pushed in the same direction.",
-    	"Hoarder": "When a card bearing this sigil is played, the owner searches their deck for any card and takes it into their hand.",
+    	"Hoarder": "When a card bearing this sigil is played, the owner searches their deck for any card and takes it into their hand, then they shuffle their deck.",
     	"Leader": "Creatures adjacent to a card bearing this sigil gain 1 Power.",
     	"Looter": "When a card bearing this sigil deals damage directly, the owner draws a card for each damage dealt.",
     	"Made of Stone": "A card bearing this sigil is immune to the effects of touch of death, stinky, annoying, and Steel Trap.",
