@@ -1035,7 +1035,7 @@
         },
         {
             "name": "Gamblobot",
-            "energy_cost": 4,
+            "energy_cost": 3,
             "attack": 0,
             "health": 1,
             "sigils": ["Power Dice (2)"],
@@ -1730,7 +1730,7 @@
             "health": 5,
             "sigils": ["Mighty Leap", "Made of Stone"],
             "nosac": true,
-            "description": "Emits a pale white light. You feel as though it calls to its brethren.",
+            "description": "Emits a pale white light. You feel as though it calls to its brethren.\n Sprite by syntaxevasion",
             "banned": true
         },
         {
@@ -1738,7 +1738,9 @@
             "attack": 1,
             "health": 40,
             "sigils": ["Made of Stone"],
-            "banned": true
+            "banned": true,
+            "description": "Sprite by syntaxevasion"
+
         }
     ],
     "sigils": {
